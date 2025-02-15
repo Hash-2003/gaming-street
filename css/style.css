@@ -17,7 +17,7 @@ body::before {
 }
 /*background image*/
 body {
-    background-image: url('/C:/Users/ubaya/Documents/IIT/Level 4/Sem2/CM1605/Coursework-20250201/Website/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;  
     background-position: center;  
     background-repeat: no-repeat;  
