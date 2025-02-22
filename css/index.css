@@ -1,0 +1,112 @@
+
+.intro-banner img {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    position:relative;
+}
+.promo-section {
+text-align: center;
+margin: 40px auto;
+}
+
+.promo-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #c4e04a;
+}
+
+.promo-banner img {
+    width: 80%;
+    max-width: 1000px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+}
+/* Featured Products */
+.featured-products {
+text-align: center;
+margin: 50px auto;
+}
+
+.featured-products h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #c4e04a;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px; 
+    flex-wrap: wrap;
+}
+
+.product {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: rgba(248, 248, 255, 0.762);
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 200px; 
+    height: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product img {
+    width: 100%;
+    height: 180px; 
+    border-radius: 5px;
+}
+
+.product p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/*Hover Effect for featured products */
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(1, 56, 255, 0.716);
+    background: rgba(248, 248, 255, 1);
+}
+/*scrolling behaviour for the page */
+html {
+    scroll-behavior: smooth;
+}
+/*Scroll Button */
+.scroll-btn {
+    position: absolute;
+    bottom: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #f6fe00;
+    padding: 17px 33px;
+    border-radius: 33px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.scroll-btn:hover {
+    background-color: #f6fe00;
+    color: #000;
+}
+
+.scroll-btn i {
+    animation: bounce 2s infinite;
+}
+

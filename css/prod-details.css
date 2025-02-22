@@ -1,3 +1,10 @@
+body{
+    background-image: url('../images/94570.jpg');
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    min-height: 100vh;
+}
 .product-details {
     display: flex;
     gap: 50px;

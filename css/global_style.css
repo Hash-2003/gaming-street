@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-/*background image overlay*/
+/*background image overlay
 body::before {
     content: '';
     position: fixed;
