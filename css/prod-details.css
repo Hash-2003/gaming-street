@@ -99,12 +99,19 @@ h2 {
 p,ul,h1,h2{
     color: #f0f0f0;
 }
-p{
+.desc{
     font-size: 18px;
+}
+
+ul{
+    margin-left: 5px;
+}
+.product-price{
+    color: #f0f0f0;
+}
+select{
+    margin-top: 10px;
 }
 #specs{
     margin-top: 20px;
-}
-ul{
-    margin-left: 5px;
 }
