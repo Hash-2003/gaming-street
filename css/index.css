@@ -4,6 +4,7 @@
     height: 700px;
     border-radius: 10px;
     position:relative;
+    margin-bottom: 15px;
 }
 .promo-section {
 text-align: center;
@@ -12,7 +13,7 @@ margin: 40px auto;
 
 .promo-section h2 {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 30px;
     color: #c4e04a;
 }
 
@@ -23,6 +24,8 @@ margin: 40px auto;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     opacity: 0.8;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* Featured Products */
 .featured-products {
@@ -32,7 +35,7 @@ margin: 50px auto;
 
 .featured-products h2 {
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 30px;
     color: #c4e04a;
 }
 
