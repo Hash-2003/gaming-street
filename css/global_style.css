@@ -199,7 +199,7 @@ body {
     .nav-links {
         display: flex;
         flex-direction: row; 
-        gap: 15px; 
+        gap: 1px; 
         list-style: none;
         padding: 0;
     }
@@ -211,8 +211,8 @@ body {
     .nav-links a {
         color: white;
         text-decoration: none;
-        padding: 10px;
-        font-size: 16px;
+        padding: 5px 5px;
+        font-size: 14px;
     }
 
     .main-content {
