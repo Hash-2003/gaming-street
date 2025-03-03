@@ -102,17 +102,25 @@ body{
     margin: 50px auto;
     padding: 0 20px;
     }
+.product-description {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f8f8c2; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
 
 h2 {
     font-size: 24px;
     margin-bottom: 20px;
-    
     }
-p,ul,h1,h2{
+p,ul,h1{
     color: #f0f0f0;
 }
 .desc{
     font-size: 18px;
+    color: black;
 }
 
 ul{
