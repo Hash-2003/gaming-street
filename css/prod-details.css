@@ -96,19 +96,15 @@ body{
     background-color: #085603;
     }
 
-.product-description,
-.product-reviews {
+.product-description,.product-reviews{
     max-width: 1200px;
-    margin: 50px auto;
-    padding: 0 20px;
-    }
-.product-description {
     width: 90%;
     margin: 20px auto;
     padding: 15px;
     background-color: #f8f8f8c2; 
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    line-height: 1.6;
     }
 
 h2 {
