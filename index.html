@@ -6,7 +6,7 @@
     <title>Gaming Street</title>
     <link rel="stylesheet" href="css/global_style.css">
     <link rel="stylesheet" href="css/index.css">
-    <script src="js/script.js"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
 
 </head>
@@ -49,10 +49,17 @@
         </section>
         <section id="promo-section"class="promo-section">
             <h2>SPECIAL OFFERS</h2>
-            <div class="promo-banner">
-                <img src="images/offer2.png" alt="Promotional Banner1">
+            <div class ="slider">
+                <div class="slides">
+                    <img class="slide" src="images/offer1.png" alt="Promo 1 image">
+                    <img class="slide" src="images/offer2.jpg" alt="Promo 2 image">
+                    <img class="slide" src="images/offer3.jpg" alt="Promo 2 image">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
             </div>
         </section>
+        <script src="js/promoslider.js"></script>
         <section class="featured-products">
             <h2>FEATURED PRODUCTS</h2>
             <div class="product-container">
