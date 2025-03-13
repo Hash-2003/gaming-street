@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "16GB 1TB SSD": 0,
                 "32GB 1TB SSD": 20000
             },
-            link: "https://www.lenovo.com/legion-5"
+            link: "https://www.lenovo.com/lk/en/c/laptops/legion-laptops/legion-5-series/"
         },
         "pny-5090": {
             title: "PNY GeForce RTX 5090 12GB",
@@ -110,6 +110,56 @@ document.addEventListener("DOMContentLoaded", function () {
                     
             },
             link: "https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pcie-3-0-nvme-gaming-ssd-500gb-mz-v8v500b-am/?msockid=2a1c71fc14b564e41daf650315b46520"
+        },
+        "rog-g16": {
+            title: "ASUS ROG Strix G16",
+            images: ["images/rog_g16_1.png", "images/rog_g16_2.png"],
+            basePrice: 500000,
+            warranty: "4 Year Asus International Warranty",
+            description: "The ASUS ROG Strix G16 is a high-performance gaming laptop designed for gamers and creators who demand power, speed, and a futuristic design. Built with the latest Intel Core 13th Gen processors and NVIDIA GeForce RTX 40-Series GPUs, it delivers outstanding gaming performance, high frame rates, and smooth multitasking.",
+            specs: [
+                "Processor: Intel i7,i9 High performance",
+                "Graphics: NVIDIA GeForce RTX 4070 12GB",
+                "Memory: 16GB,32GB DDR5",
+                "Storage: 1TB,2TB NVMe SSD",
+                "Display: 16″ QHD+ 240Hz G-Sync",
+                "Keyboard: RGB backlit",
+                "Audio: Smart Amp Technology",
+                "Connectivity: Wi-Fi 6, Bluetooth 5.1",
+                "Ports: USB-C, USB-A, HDMI, Ethernet",
+                "Operating System: Windows 11"
+            ],
+            options: {
+                "i7 13980HX 16GB 1TB SSD": 0,
+                "i7 13650HX 32GB 2TB SSD": 65000,
+		        "i9 13980HX 32GB 2TB SSD": 150000
+            },
+            link: "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2023-series/"
+        },
+        "katana-15": {
+            title: "MSI Katana 15 B13VFK I7 13TH GEN RTX 4060 8GB",
+            images: ["images/katana_15_1.png", "images/katana_15_2.png"],
+            basePrice: 420000,
+            warranty: "2 Year MSI International Warranty",
+            description: "A powerful gaming laptop featuring Intel i7 and RTX 4060, offering smooth gaming performance.",
+            specs: [
+                "Processor: Intel Core i7-13620H 10 Core (24M Cache, up to 4.90 GHz)",
+                "Graphics: NVIDIA GeForce RTX 4060 8GB GDDR6",
+                "Memory: 16GB,32GB DDR5",
+                "Storage: 1TB M.2 NVME GEN4 SSD",
+                "Display: 15.6 1080P 144Hz  NTSC IPS Level",
+                "Keyboard: 4-Zone RGB backlit",
+                "Audio: Dolby Atmos",
+                "Connectivity: Wi-Fi 6, Bluetooth 5.1",
+                "Ports: USB-C, USB-A, HDMI, Ethernet",
+                "Operating System: Windows 11"
+            ],
+            options: {
+                "16GB Memory": 0,
+                "32GB Memory": 20000,
+		        "64GB Memory": 40000
+            },
+            link: "https://www.msi.com/Laptop/Katana-15-B13VX"
         },
 
     };
