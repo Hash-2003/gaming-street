@@ -6,7 +6,7 @@
     <title>Gaming Street</title>
     <link rel="stylesheet" href="css/global_style.css">
     <link rel="stylesheet" href="css/prod-details.css">
-    <script src="js/script.js"></script>
+    <script src="js/product.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
@@ -42,42 +42,26 @@
     <main>
         <div class="product-details">
             <div class="product-gallery">
-                <button class="nav-btn prev-btn">&lt;</button>
+                <button class="nav-btn prev-btn" onclick="prevImage()">&lt;</button>
                 <div class="product-image">
-                    <img src="images/tuf_f15.png" alt="Product">
+                    <img id="product-image" src="" alt="Product">
                 </div>
-                <button class="nav-btn next-btn">&gt;</button>
+                <button class="nav-btn next-btn" onclick="nextImage()">&gt;</button>
             </div>
             <div class="product-info">
-                <h1 class = "product-title">ASUS TUF Gaming F15 RTX 4070 12GB</h1>
-                <select class="product-options">
-                    <option value="512GB SSD">16GB 512GB SSD</option>
-                    <option value="1TB SSD">32GB 1TB SSD</option>
-                    <option value="2TB SSD">64GB 2TB SSD</option>
-                </select>
-        
-            <div class="product-price">Rs.450,000</div>
+                <h1 id = "product-title"></h1>
+                <select id="product-options"></select>
+            <div class="product-price" id="product-price"></div>
             <button class="add-to-cart">Add to Cart</button>
-            <div class="warranty">2 Year ASUS International Warranty</div>
+            <div class="warranty" id="product-warranty"></div>
             </div>
         </div>
         <div class="product-description">
             <h2>Description</h2>
-            <p class="desc">ASUS TUF Gaming F15 is a high-performance gaming laptop designed for durability and power. Equipped with up to an Intel Core i7 processor and NVIDIA GeForce RTX 40-series GPU, it delivers exceptional gaming performance with smooth frame rates and realistic visuals. The 15.6-inch Full HD display with a 144Hz or 165Hz refresh rate ensures fluid gameplay, while the Adaptive-Sync technology reduces screen tearing for an immersive experience.Built to military-grade toughness, the TUF F15 features a robust chassis that can withstand daily wear and tear. The laptop also includes an efficient self-cleaning cooling system, DDR5 RAM, and fast NVMe SSD storage for seamless multitasking. With RGB backlit keyboard, DTS:X Ultra audio, and a wide selection of ports, the ASUS TUF Gaming F15 is the perfect companion for both gamers and power users</p>
-            <p class="desc" id="specs">Specifications:</p>
-                <ul class="desc">
-                    <li>Processor: Intel Core i7-13620H</li>
-                    <li>Graphics: NVIDIA GeForce RTX 4070 12GB</li>
-                    <li>Memory: 16GB,32GB,64GB DDR5</li>
-                    <li>Storage: 512GB,1TB,2TB NVMe SSD</li>
-                    <li>Display: 15.6-inch Full HD 144Hz</li>
-                    <li>Keyboard: RGB backlit</li>
-                    <li>Audio: Dolby Atmos,Hi-Res Audio</li>
-                    <li>Connectivity: Wi-Fi 6, Bluetooth 5.2</li>
-                    <li>Ports: USB-C, USB-A, HDMI, Ethernet</li>
-                    <li>Operating System: Windows 11</li>
-                </ul>
-            <a href="https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-f15-2023/techspec/" class="desc" target="_blank">Learn more</a>
+            <p id="product-description"></p>
+            <h3>Specifications:</h3>
+            <ul id="product-specs"></ul>
+            <a id="learn-more-link" class="desc" target="_blank">Learn more</a>
         </div>
         <div class="product-reviews">
             <h2>Reviews</h2>
