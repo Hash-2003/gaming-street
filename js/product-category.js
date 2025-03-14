@@ -8,7 +8,8 @@ function loadProducts(category) {
     const productContainer = document.getElementById("product-container");
 
     if (!products[category]) {
-        productContainer.innerHTML = "<p>No products found in this category.</p>";
+        productContainer.innerHTML = '<p style="color: white; font-size: 18px; text-align: center;">No products found in this category.</p>';
+
         return;
     }
 

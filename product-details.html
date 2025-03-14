@@ -6,7 +6,8 @@
     <title>Gaming Street</title>
     <link rel="stylesheet" href="css/global_style.css">
     <link rel="stylesheet" href="css/prod-details.css">
-    <script src="js/product.js"></script>
+    <script defer src="js/product-data.js"></script>
+    <script defer src="js/product.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
@@ -22,11 +23,11 @@
                 <li class="dropdown">
                     <a href="#">Categories</a>
                     <ul class="dropdown-menu">
-                        <li><a href="gaming-laptops.html">Gaming Laptops</a></li>
-                        <li><a href="graphics-cards.html">Graphics Cards</a></li>
-                        <li><a href="processors.html">Processors</a></li>
-                        <li><a href="memoram.html">Rams&SSDs</a></li>
-                        <li><a href="accessories.html">Accessories</a></li>
+                        <li><a href="category.html?category=gaming-laptops">Gaming Laptops</a></li>
+                        <li><a href="category.html?category=graphics-cards">Graphics Cards</a></li>
+                        <li><a href="category.html?category=processors">Processors</a></li>
+                        <li><a href="category.html?category=ssds-rams">Rams&SSDs</a></li>
+                        <li><a href="category.html?category=accessories">Accessories</a></li>
                     </ul>
                 </li>
                 <li><a href="aboutus.html">About</a></li>
@@ -50,7 +51,7 @@
             </div>
             <div class="product-info">
                 <h1 id = "product-title"></h1>
-                <select id="product-options"></select>
+                <select id="product-options" style="background-color: #f0f0f0; color: black; font-size: 16px; padding: 12px; border: 2px solid black; border-radius: 5px; width: 100%; max-width: 300px;"></select>
             <div class="product-price" id="product-price"></div>
             <button class="add-to-cart">Add to Cart</button>
             <div class="warranty" id="product-warranty"></div>
@@ -78,8 +79,8 @@
     
             <div class="footer-links">
                 <a href="index.html">Home</a>
-                <a href="gaming-laptops.html">Gaming Laptops</a>
-                <a href="graphics-cards.html">Graphics Cards</a>
+                <a href="category.html?category=gaming-laptops">Gaming Laptops</a>
+                <a href="category.html?category=graphics-cards">Graphics Cards</a>
                 <a href="aboutus.html">About</a>
                 <a href="contact.html">Contact</a>
             </div>
