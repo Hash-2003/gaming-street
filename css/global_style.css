@@ -139,6 +139,18 @@ body {
     background-color: transparent !important; 
     color: #fff !important; 
 }
+/*Home fixed Navbar*/
+.home .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
 /*cart*/
 .cart {
     margin-left: 30px;
