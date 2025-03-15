@@ -162,7 +162,160 @@ const products = {
 		        "Intel Ultra 9, RTX 4090 16GB": 150000
             },
             link: "https://www.dell.com/en-us/shop/cty/pdp/spd/alienware-m16-r2-laptop"
+        },
+
+        {
+            id: "lenovo-loq-15irx9",
+            brand: "Lenovo",
+            title: "Lenovo LOQ 15IRX9 Gaming Laptop",
+            images: ["images/lenovo_loq15_1.png", "images/lenovo_loq15_2.png", "images/lenovo_loq15_3.png"],
+            basePrice: 320000,  
+            warranty: "2-Year Lenovo International Warranty",
+            description: "The Lenovo LOQ 15IRX9 gaming laptop is built for gamers with up to Intel® Core™ i7-14700HX processors and NVIDIA GeForce RTX™ 40 Series Laptop GPUs, delivering a powerful and immersive gaming experience.",
+            specs: [
+                "Processor: Up to Intel® Core™ i7-14700HX",
+                "Operating System: Up to Windows 11 Pro",
+                "Graphics: NVIDIA® GeForce RTX® 4060 Laptop GPU 8GB GDDR6 (115W) / RTX® 4050 6GB GDDR6 (95W) / RTX® 3050 8GB GDDR6 (95W)",
+                "Memory: Up to 16GB 5600MHz DDR5 (2 x SO-DIMM)",
+                "Storage: Up to 1TB M.2 2242 PCIe Gen 4 SSD (2 x PCIe Gen 4 slots)",
+                "Battery: 4-cell 60Whr, Super Rapid Charge Pro (40% in 10 min, 100% in 60 min)",
+                "Display: 15.6” WQHD (2560x1440) IPS, 165Hz, 100% sRGB, G-SYNC / 15.6” FHD (1920x1080) IPS, 144Hz, 100% sRGB",
+                "Audio: 2 x 2W speakers with Nahimic® Audio",
+                "Camera: Up to 1080p with E-Shutter",
+                "Connectivity: WiFi 6, Bluetooth 5.1",
+                "Ports: USB-A 3.2 Gen 1, USB-C 3.2 Gen 2, HDMI 2.1, Ethernet, Headphone/mic combo",
+                "Keyboard: 1.5mm key travel, White backlight (Optional: 4-zone RGB)"
+            ],
+            options: {
+                "RTX 3050, 8GB RAM, 512GB SSD": 0,
+                "RTX 4050, 16GB RAM, 1TB SSD": 45000,
+                "RTX 4060, 16GB RAM, 1TB SSD": 90000
+            },
+            link: "https://www.lenovo.com/lk/en/p/laptops/loq-laptops/lenovo-loq-15irx9/len101q0005#tech_specs"
+        },
+
+        {
+            id: "hp-victus-15t-fa100",
+            brand: "HP",
+            title: "Victus by HP Gaming Laptop 15t-fa100",
+            images: ["images/hp_victus15_1.png", "images/hp_victus15_2.png"],
+            basePrice: 220000,  
+            warranty: "1-Year HP Warranty",
+            description: "The Victus by HP Gaming Laptop 15t-fa100 is designed for casual to pro gamers, offering powerful hardware configurations, customizable options, and sleek aesthetics.",
+            specs: [
+                "Processor: Intel® Core™ i5-13500H (4.7 GHz, 12 Cores, 16 Threads) / Intel® Core™ i7-13700H (5.0 GHz, 14 Cores, 20 Threads)",
+                "Graphics: NVIDIA® GeForce RTX™ 3050 6GB / RTX™ 4050 6GB",
+                "Memory: 8GB DDR4-3200 SDRAM (2x4GB) / 16GB DDR4-3200 SDRAM (2x8GB)",
+                "Display: 15.6” FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits / 144Hz, 9ms response time, 250 nits",
+                "Storage: 512GB PCIe® NVMe™ TLC M.2 SSD / 1TB PCIe® NVMe™ M.2 SSD",
+                "Battery: 4-cell, 70Wh Li-ion polymer",
+                "Keyboard: Full-size, backlit, mica silver keyboard with numeric keypad",
+                "Audio: Dual speakers with B&O tuning",
+                "Camera: HP Wide Vision 720p HD camera with dual array digital microphones",
+                "Connectivity: Wi-Fi 6 / Intel® Wi-Fi 6E AX211 (2x2), Bluetooth® 5.3",
+                "Ports: HDMI 2.1, USB-C, USB-A, Ethernet, Headphone/mic combo",
+                "Operating System: Windows 11 Home / Windows 11 Pro"
+            ],
+            options: {
+                "i5, RTX 3050, 8GB RAM, 512GB SSD": 0,
+                "i5, RTX 4050, 16GB RAM, 1TB SSD": 20000,
+                "i7, RTX 3050, 8GB RAM, 512GB SSD": 35000,
+                "i7, RTX 4050, 16GB RAM, 1TB SSD": 55000
+            },
+            link: "https://www.hp.com/us-en/shop/pdp/victus-by-hp-gaming-laptop-pc-15t-fa100-156-771t0av-1"
+        },
+
+        {
+            id: "omen-transcend-14",
+            brand: "HP",
+            title: "HP OMEN Transcend 14 Gaming Laptop",
+            images: ["images/omen_transcend14_1.png", "images/omen_transcend14_2.png"],
+            basePrice: 374999,  
+            warranty: "1-Year HP Limited Hardware Warranty",
+            description: "The OMEN Transcend 14 is a high-performance gaming and content creation laptop featuring a stunning 3K OLED display, Intel Core Ultra 9 processor, and NVIDIA GeForce RTX 4070 GPU.",
+            specs: [
+                "Processor: Intel® Core™ Ultra 9 185H (5.1 GHz, 16 Cores, 22 Threads, 24MB L3 Cache)",
+                "Graphics: Intel® Arc™ Graphics (Integrated) / NVIDIA® GeForce RTX™ 4070 Laptop GPU (8GB GDDR6)",
+                "Memory: 32GB LPDDR5x-7467 MT/s (Onboard)",
+                "Storage: 2TB PCIe® Gen4 NVMe™ Performance M.2 SSD",
+                "Display: 14” 3K (2880 x 1800) OLED, 48-120Hz, 0.2ms response, HDR 500, 100% DCI-P3, 400 nits",
+                "Battery: 6-cell, 71Wh Li-ion polymer (Up to 8 hours 15 mins usage, Up to 13 hours video playback)",
+                "Keyboard: Full-size, 4-zone RGB backlit keyboard with 26-Key Rollover Anti-Ghosting",
+                "Audio: DTS:X® Ultra, HyperX Dual Speakers, HP Audio Boost",
+                "Camera: HP True Vision 1080p FHD IR camera with noise reduction",
+                "Connectivity: Intel® Wi-Fi 7 BE200 (2x2), Bluetooth® 5.4",
+                "Ports: 1 USB-A 10Gbps, 1 USB-C 40Gbps (Thunderbolt 4), 1 USB-C 10Gbps, 1 HDMI 2.1, 1 Headphone/mic combo",
+                "Operating System: Windows 11 Home"
+            ],
+            options: {
+                "Shadow Black, RTX 4070, 32GB RAM, 2TB SSD": 0
+            },
+            link: "https://www.hp.com/us-en/shop/pdp/omen-transcend-laptop-14-fb0097nr?jumpid=ma_hp-gaming_product-tile_laptops_12_9q056ua_omen-transcend-lapto"
+        },
+
+        {
+            id: "predator-helios-16-ai",
+            brand: "Acer",
+            title: "Acer Predator Helios 16 AI Gaming Laptop",
+            images: ["images/predator_helios_16_3.png", "images/predator_helios_16_2.png", "images/predator_helios_16_1.png"],
+            basePrice: 620000,  
+            warranty: "1-Year Acer Limited Warranty",
+            description: "The Predator Helios 16 AI is an AI-powered gaming laptop featuring Intel Core Ultra 9, RTX 5090 GPU, and an immersive OLED display, built for extreme gaming and content creation.",
+            specs: [
+                "Processor: Intel® Core™ Ultra 9 275HX (5.4 GHz, 24 Cores, 8P + 16E)",
+                "Graphics: NVIDIA® GeForce RTX™ 5090 Laptop GPU (AI-powered, DLSS 4, Studio Support)",
+                "Memory: Up to 32GB DDR5",
+                "Storage: Up to 2TB PCIe Gen 4 NVMe SSD",
+                "Display: 16” WQXGA (2560 x 1600) OLED, 240Hz, 3ms response, 100% DCI-P3, G-SYNC",
+                "Cooling: 6th Gen AeroBlade™ 3D Fan with Adaptive Blades",
+                "Keyboard: MagKey™ 4.0 Swappable WASD & Arrow Keys, Per-Key RGB Lighting",
+                "Audio: DTS:X® Ultra, AI-powered PurifiedVoice™ 2.0",
+                "Connectivity: Thunderbolt™ 5 (120Gbps), Wi-Fi 7, Ethernet RJ45",
+                "Ports: 2 x USB-C (Thunderbolt™ 5), 2 x USB-A 3.2, HDMI 2.1, Headphone Jack",
+                "AI Features: Intel® Application Optimization, Acer ProCam™, AI Voice Enhancement",
+                "Battery: Fast Charge, 40% in 10 min, 100% in 60 min",
+                "Operating System: Windows 11 Home"
+            ],
+            options: {
+                "RTX 5090, 32GB RAM, 2TB SSD": 0,
+                "RTX 5090, 64GB RAM, 4TB SSD": 85000
+            },
+            link: "https://www.acer.com/us-en/predator/laptops/helios/helios-16-ai"
+        },
+
+        {
+            id: "lenovo-slim7i-gen8",
+            brand: "Lenovo",
+            title: "Lenovo Legion Slim 7i Gen 8 (16″ Intel)",
+            images: ["images/legion_slim7i_1.png", "images/legion_slim7i_2.png", "images/legion_slim7i_3.png"],
+            basePrice: 475000,  
+            warranty: "2 Year Lenovo International Warranty",
+            description: "The Lenovo Legion Slim 7i Gen 8 is a powerful 16-inch AI-enhanced gaming laptop, featuring 13th Gen Intel® Core™ processors and NVIDIA® GeForce RTX™ 40 Series graphics with a high-refresh-rate display for an immersive gaming experience.",
+            specs: [
+                "Processor: Up to 13th Gen Intel® Core™ i9-13900H",
+                "Graphics: Up to NVIDIA® GeForce RTX™ 4070 Laptop GPU 8GB GDDR6",
+                "Memory: Up to 32GB 5200MHz DDR5 (16GB onboard + 16GB slot)",
+                "Storage: Up to 1TB PCIe SSD Gen 4",
+                "Battery: Up to 99.99Whr with Super Rapid Charge",
+                "Display: 16″ WQXGA (2560 x 1600) IPS, 240Hz VRR, Dolby Vision®",
+                "Cooling: Legion ColdFront 5.0 Thermal System",
+                "Keyboard: Lenovo Legion TrueStrike RGB Backlit Keyboard",
+                "Audio: 2 x 2W Harman® Speaker with Nahimic Audio",
+                "Camera: 1080p Webcam with E-Shutter & Tobii Horizon Support",
+                "Connectivity: WiFi 7, Bluetooth 5.1, Thunderbolt™ 4, HDMI 2.1",
+                "Ports: USB-C, USB-A, SD Card Reader, Audio Combo Jack"
+            ],
+            options: {
+                "i7-13700H | RTX 4060 | 16GB RAM | 512GB SSD": 0,
+                "i9-13900H | RTX 4070 | 32GB RAM | 1TB SSD": 85000
+            },
+            link: "https://www.lenovo.com/lk/en/p/laptops/legion-laptops/legion-slim-series-laptops/lenovo-legion-slim-7i-gen-8-(16-inch-intel)/len101g0028"
         }
+        
+        
+        
+        
+        
 
     ],
     
@@ -253,7 +406,43 @@ const products = {
                 "OC Edition": 12000
             },
             link: "https://www.gigabyte.com/Graphics-Card/GV-N4080AORUS-M-16GD"
-        }
+        },
+
+        {
+            id: "rog-rtx4080-super",
+            brand: "Asus",
+            title: "ROG Strix GeForce RTX 4080 SUPER 16GB OC Edition",
+            images: ["images/rog_rtx4080_1.png", "images/rog_rtx4080_2.png"],
+            basePrice: 330000,  
+            warranty: "3 Year Asus International Warranty",
+            description: "The ROG Strix GeForce RTX 4080 SUPER 16GB GDDR6X OC Edition delivers top-tier AI performance, ultra-efficient cooling, and cutting-edge graphics technology with DLSS 3 and full ray tracing.",
+            specs: [
+                "AI Performance: 865 AI TOPS",
+                "4th Gen Tensor Cores: Up to 4x performance with DLSS 3",
+                "3rd Gen RT Cores: Up to 2X ray tracing performance",
+                "OC Mode: 2670 MHz (OC mode) / 2640 MHz (Default mode)",
+                "Axial-tech fans with 23% more airflow",
+                "Patented vapor chamber for superior cooling",
+                "3.5-slot massive heatsink design",
+                "Digital power control with high-current power stages",
+                "Auto-Extreme precision manufacturing for high reliability",
+                "Memory: 16GB GDDR6X",
+                "CUDA Cores: 10,240",
+                "Memory Speed: 23 Gbps",
+                "Memory Interface: 256-bit",
+                "Display Outputs: 2 x HDMI 2.1a, 3 x DisplayPort 1.4a",
+                "Max Resolution: 7680 x 4320",
+                "Power Supply Requirement: 850W",
+                "Power Connector: 1 x 16-pin",
+                "ARGB Aura Sync Support",
+                "Dimensions: 357.6 x 149.3 x 70.1mm"
+            ],
+            options: {
+                "-No options-": 0
+            },
+            link: "https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080s-o16g-gaming/"
+        },
+        
         
     ],
 
@@ -663,7 +852,87 @@ const products = {
             "-No options-": 0
         },
         link: "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-dex.910-007328.html"
+    },
+
+    {
+        id: "razer-hammerhead-pro",
+        brand: "Razer",
+        title: "Razer Hammerhead Pro HyperSpeed Wireless Gaming Earbuds",
+        images: ["images/razer_hammerhead_pro_1.png", "images/razer_hammerhead_pro_2.png"],
+        basePrice: 55000,  
+        warranty: "2 Year Razer International Warranty",
+        description: "The Razer Hammerhead Pro HyperSpeed delivers cutting-edge wireless audio for gamers, featuring HyperSpeed Wireless, Bluetooth 5.3, Adjustable ANC, and Chroma RGB lighting with up to 30 hours of battery life.",
+        specs: [
+            "Connectivity: Razer HyperSpeed Wireless (2.4GHz) & Bluetooth 5.3",
+            "Adjustable Active Noise Cancellation (ANC)",
+            "Fast Wireless Charging Case with 24hr Additional Battery",
+            "Battery Life: Up to 30 Hours (with charging case)",
+            "Chroma RGB Lighting with 16.8 Million Colors",
+            "Dual-Wireless Connection with Do Not Disturb Mode",
+            "Compatibility: PC, PlayStation, Switch, Mobile, Steam Deck",
+            "USB-A / USB-C Dongle Included"
+        ],
+        options: {
+            "-No options-": 0
+        },
+        link: "https://www.razer.com/mobile-earphones/razer-hammerhead-true-wireless-pro"
+    },
+
+    {
+        id: "logitech-g515-tkl",
+        brand: "Logitech",
+        title: "Logitech G515 TKL Wired Gaming Keyboard",
+        images: ["images/logitech_g515_1.png"],
+        basePrice: 8999,  
+        warranty: "2 Year Logitech Warranty",
+        description: "The Logitech G515 TKL is a wired tenkeyless gaming keyboard that combines high performance with a low-profile design. Engineered for durability and finely-tuned for intense gaming moments.",
+        specs: [
+            "Tenkeyless (TKL) design for a compact setup",
+            "Ultra-low profile mechanical switches",
+            "Personalizable RGB lighting",
+            "Wired USB connection",
+            "Durable aluminum top plate",
+            "Customizable macros and key assignments",
+            "Compatible with Windows and macOS",
+            "Free shipping and returns"
+        ],
+        options: {
+            "Black": 0
+        },
+        link: "https://www.logitechg.com/en-us/products/gaming-keyboards/g515-tkl-wired.html"
+    },
+
+    {
+        id: "samsung-qd-oled-g8",
+        brand: "Samsung",
+        title: "Samsung 34\" Odyssey QD-OLED G8 Ultra-WQHD Gaming Monitor",
+        images: ["images/samsung_qd_oled_g8_1.png","images/samsung_qd_oled_g8_2.png"],
+        basePrice: 328499,  
+        warranty: "3-Year Manufacturer Warranty",
+        description: "The Samsung Odyssey QD-OLED G8 delivers ultra-high performance with a 34-inch Ultra-WQHD display, 175Hz refresh rate, and 0.03ms response time for seamless, tear-free gaming.",
+        specs: [
+            "Display: 34-inch Ultra-WQHD (3440 x 1440)",
+            "Panel Type: QD-OLED Curved",
+            "Aspect Ratio: 21:9",
+            "Refresh Rate: 175Hz",
+            "Response Time: 0.03ms (GtG)",
+            "G-Sync & FreeSync Compatible",
+            "Pixel Density: 110 PPI",
+            "Glare Free Technology",
+            "OLED Safeguard: Thermal Modulation System",
+            "Smart Features: Gaming Hub, Smart TV Apps",
+            "Connectivity: HDMI 2.1, DisplayPort, USB-C",
+            "Ergonomic Stand with Height, Tilt & Swivel Adjustment",
+            "Slim Metal Design",
+            "Warranty: 3 Years Manufacturer Warranty"
+        ],
+        options: {
+            "-No options-": 0
+        },
+        link: "https://www.samsung.com/us/computing/monitors/gaming/34-odyssey-qd-oled-g8-ultra-wqhd-175hz-g-sync-compatible-curved-gaming-monitor-ls34dg856snxza/"
     }
+    
+    
 
 ]
 
