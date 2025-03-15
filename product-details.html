@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/prod-details.css">
     <script defer src="js/product-data.js"></script>
     <script defer src="js/product.js"></script>
+    <script defer src="js/cart.js"></script>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
@@ -36,7 +39,9 @@
                 <li><a href="faq.html">FAQ</a></li>
             </ul>
             <div class="cart">
-                <img src="images/cart_1.png" alt="Cart">
+                <a href="cart.html">
+                    <img src="images/cart_1.png" alt="Cart">
+                </a>
             </div>
         </nav>
     </header>
@@ -53,7 +58,7 @@
                 <h1 id = "product-title"></h1>
                 <select id="product-options" style="background-color: #f0f0f0; color: black; font-size: 16px; padding: 12px; border: 2px solid black; border-radius: 5px; width: 100%; max-width: 300px;"></select>
             <div class="product-price" id="product-price"></div>
-            <button class="add-to-cart">Add to Cart</button>
+            <button class="add-to-cart" onclick="addToCart()">Add to Cart</button>
             <div class="warranty" id="product-warranty"></div>
             </div>
         </div>
