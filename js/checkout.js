@@ -23,17 +23,17 @@ function loadCartSummary() {
     }
 
     let totalPrice = 0;
-    cartSummary.innerHTML = "<h2 style='color: white;'>Order Summary</h2>";
+    cartSummary.innerHTML = "<h2 style='color: black; margin-bottom: 5px;'>Order Summary</h2>";
     cart.forEach(item => {
         let itemTotal = item.price * item.quantity;
         totalPrice += itemTotal;
 
         cartSummary.innerHTML += `
-            <p style='color: white;'>${item.title} - Rs.${item.price.toLocaleString()} x ${item.quantity} = Rs.${itemTotal.toLocaleString()}</p>
+            <p style='color: black; line-height: 1.8;'>${item.title} - Rs.${item.price.toLocaleString()} x ${item.quantity} = Rs.${itemTotal.toLocaleString()}</p>
         `;
     });
 
-    cartSummary.innerHTML += `<h3 style='color: white;'>Total: Rs.${totalPrice.toLocaleString()}</h3>`;
+    cartSummary.innerHTML += `<h3 style='color: black; margin-top: 5px;'>Total: Rs.${totalPrice.toLocaleString()}</h3>`;
     placeOrderBtn.disabled = false;
     placeOrderBtn.style.backgroundColor = "#0ed100";
 }
