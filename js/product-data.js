@@ -637,7 +637,34 @@ const products = {
             "-No options-": 0
         },
         link: "https://www.elgato.com/en/stream-deck"
+    },
+
+    {
+        id: "logitech-pro-x-superlight-2-dex",
+        brand: "Logitech",
+        title: "Logitech PRO X SUPERLIGHT 2 DEX",
+        images: ["images/logitech_prodex_1.png", "images/logitech_prodex_2.png"],
+        basePrice: 45000,  
+        warranty: "2-Year Limited Hardware Warranty",
+        description: "PRO X SUPERLIGHT 2 DEX is a 60g asymmetrical mouse featuring advanced HERO 2 sensor, robust LIGHTSPEED wireless, and LIGHTFORCE switches while delivering up to 95 hours of battery life.",
+        specs: [
+            "Onboard memory: 1 Advanced features require Logitech G HUB Software",
+            "Buttons: 5",
+            "Sensor: HERO 2",
+            "Resolution: 100 – 44,000 DPI",
+            "Max acceleration: >88 G (Tested on Logitech G640 Gaming Mouse Pad)",
+            "Max speed: >888 IPS (Tested on Logitech G640 Gaming Mouse Pad)",
+            "Zero smoothing/acceleration/filtering",
+            "Max wired report rate: 1000Hz (1ms)",
+            "Max LIGHTSPEED report rate: 8000Hz (0.25ms)",
+            "Battery life (constant motion): 95 hours"
+        ],
+        options: {
+            "-No options-": 0
+        },
+        link: "https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-dex.910-007328.html"
     }
+
 ]
 
 

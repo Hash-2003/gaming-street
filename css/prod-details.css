@@ -21,6 +21,7 @@ body {
     padding: 20px;
     align-items: flex-start;  
     justify-content: center;
+    margin-top: 0;
 }
 
 /* Image Gallery */
