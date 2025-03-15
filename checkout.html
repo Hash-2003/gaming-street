@@ -68,12 +68,12 @@
             <p id="email-error" style="color: red;"></p>
 
             <label>Payment Method:</label>
-            <div>
+            <div class="radio-group">
                 <input type="radio" name="payment" id="credit-card" value="credit-card">
-                <label for="credit-card">Credit Card</label>
+                <label for="credit-card">Credit/Debit Card</label>
                 
-                <input type="radio" name="payment" id="paypal" value="paypal">
-                <label for="paypal">PayPal</label>
+                <input type="radio" name="payment" id="Helapay" value="helapay">
+                <label for="paypal">HelaPay</label>
                 
                 <input type="radio" name="payment" id="cod" value="cod">
                 <label for="cod">Cash on Delivery</label>
@@ -83,12 +83,12 @@
             <label for="delivery-method">Delivery Method:</label>
             <select id="delivery-method">
                 <option value="">Select Delivery Method</option>
-                <option value="pick-up">Pick-Up</option>
+                <option value="pick-up">Store Pick-Up</option>
                 <option value="delivery">Delivery</option>
             </select>
             <p id="delivery-error" style="color: red;"></p>
 
-            <div>
+            <div class="checkbox-group">
                 <input type="checkbox" id="agree-terms">
                 <label for="agree-terms">I agree to the <a href="terms-conditions.html" target="_blank">Terms and Conditions</a></label>
             </div>

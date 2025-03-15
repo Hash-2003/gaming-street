@@ -62,9 +62,23 @@ div input[type="radio"] {
     margin-right: 5px;
 }
 
-.radio-group {
+.radio-group, .checkbox-group {
     display: flex;
     gap: 15px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group label, .checkbox-group label {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0); 
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: 16px; 
+    height: 16px;
+    cursor: pointer;
 }
 
 /* Terms and Conditions */
@@ -123,6 +137,7 @@ button:hover {
 .clear-cart:hover {
     background-color: #c82333;
 }
+
 
 /* Mobile optimization */
 @media (max-width: 600px) {

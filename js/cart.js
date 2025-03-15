@@ -97,7 +97,7 @@ function loadCart() {
         `;
     });
 
-    cartContainer.innerHTML += `<h3>Total Price: Rs.${totalPrice.toLocaleString()}</h3>`;
+    cartContainer.innerHTML += `<h2 style="color:white;" >Total Price: Rs.${totalPrice.toLocaleString()}</h2>`;
 }
 
 // update quantity

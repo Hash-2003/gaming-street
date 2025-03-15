@@ -112,7 +112,6 @@ function placeOrder() {
 //cancel
 function cancel(){
     if (confirm("Your order will be canceled.Are you sure you want to proceed?")) {
-        alert("Order was canceled");
         localStorage.removeItem("cart");
         window.location.href = "index.html";
     }
