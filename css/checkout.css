@@ -1,0 +1,132 @@
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(248, 248, 255, 0.762);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    color: #000000;
+}
+
+/* Cart Summary */
+#cart-summary {
+    background-color: #939393;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input Fields & Select */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Address Textarea */
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Error Messages */
+p[id$="-error"] {
+    font-size: 14px;
+    color: red;
+    margin: 0;
+}
+
+/* Payment Method - Radio Buttons */
+div input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+/* Terms and Conditions */
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.terms a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.cart-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 48%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.clear-cart {
+    background-color: #dc3545;
+}
+
+.clear-cart:hover {
+    background-color: #c82333;
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .cart-buttons {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

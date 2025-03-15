@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <script src="js/checkout.js"></script>
+    <link rel="stylesheet" href="css/global_style.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo_1.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="#">Categories</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="category.html?category=gaming-laptops">Gaming Laptops</a></li>
+                        <li><a href="category.html?category=graphics-cards">Graphics Cards</a></li>
+                        <li><a href="category.html?category=processors">Processors</a></li>
+                        <li><a href="category.html?category=ssds-rams">Rams&SSDs</a></li>
+                        <li><a href="category.html?category=accessories">Accessories</a></li>
+                    </ul>
+                </li>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <div class="cart">
+                <a href="cart.html">
+                    <img src="images/cart_1.png" alt="Cart">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 >Checkout</h1>
+
+        <div id="cart-summary"></div>
+
+        <form id="checkout-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your full name">
+            <p id="name-error" style="color: red;"></p>
+
+            <label for="nic">NIC Number:</label>
+            <input type="number" id="nic" placeholder="Enter your NIC number">
+            <p id="nic-error" style="color: red;"></p>
+
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" placeholder="Enter your full address" rows="3"></textarea>
+            <p id="address-error" style="color: red;"></p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            <p id="email-error" style="color: red;"></p>
+
+            <label>Payment Method:</label>
+            <div>
+                <input type="radio" name="payment" id="credit-card" value="credit-card">
+                <label for="credit-card">Credit Card</label>
+                
+                <input type="radio" name="payment" id="paypal" value="paypal">
+                <label for="paypal">PayPal</label>
+                
+                <input type="radio" name="payment" id="cod" value="cod">
+                <label for="cod">Cash on Delivery</label>
+            </div>
+            <p id="payment-error" style="color: red;"></p>
+
+            <label for="delivery-method">Delivery Method:</label>
+            <select id="delivery-method">
+                <option value="">Select Delivery Method</option>
+                <option value="pick-up">Pick-Up</option>
+                <option value="delivery">Delivery</option>
+            </select>
+            <p id="delivery-error" style="color: red;"></p>
+
+            <div>
+                <input type="checkbox" id="agree-terms">
+                <label for="agree-terms">I agree to the <a href="terms-conditions.html" target="_blank">Terms and Conditions</a></label>
+            </div>
+            <p id="terms-error" style="color: red;"></p>
+
+            <div class="cart-buttons">
+                <button type="button" onclick="cancel()" 
+                    style="color: rgb(255, 255, 255); width: 45%; background-color: #fd4a4a; padding: 10px; border: none; font-size: 16px; cursor: pointer; text-align: center; border-radius: 5px;">
+                    Cancel
+                </button>
+                <button id="place-order-btn" type="submit"
+                    style="color: rgb(255, 255, 255); width: 45%; background-color: #0ed100; padding: 10px; border: none; font-size: 16px; cursor: pointer; text-align: center; border-radius: 5px;">
+                    Place Order
+                </button>
+            </div>
+        </form>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/logo_1.png" alt="Gaming Street Logo">
+            </div>
+    
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="category.html?category=gaming-laptops">Gaming Laptops</a>
+                <a href="category.html?category=graphics-cards">Graphics Cards</a>
+                <a href="aboutus.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+    
+            <div class="footer-social">
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.x.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+    
+            <p>© 2025 Gaming Street. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

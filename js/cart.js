@@ -1,11 +1,10 @@
-// Ensure cart is loaded from localStorage
+
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-// Function to add item to cart
+// add to cart func
 function addToCart() {
     console.log("Attempting to add product to cart...");
 
-    // Get the product ID from URL
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get("id");
 
@@ -14,7 +13,6 @@ function addToCart() {
         return;
     }
 
-    // Find the product in product-data.js
     let foundProduct = null;
     for (const category in products) {
         foundProduct = products[category].find(product => product.id === productId);
@@ -28,11 +26,11 @@ function addToCart() {
 
     console.log("Product found:", foundProduct.title);
 
-    // Get selected option
+    //selected option
     const optionsDropdown = document.getElementById("product-options");
     const selectedOption = optionsDropdown ? optionsDropdown.value : null;
 
-    // Set base price and calculate option price (if applicable)
+    // calculate price
     let basePrice = foundProduct.basePrice;
     let optionPrice = selectedOption ? (foundProduct.options[selectedOption] || 0) : 0;
     let finalPrice = basePrice + optionPrice;
@@ -47,7 +45,7 @@ function addToCart() {
         cart.push({
             id: productId,
             title: foundProduct.title,
-            image: foundProduct.images[0], // First image as thumbnail
+            image: foundProduct.images[0], 
             price: finalPrice,
             option: selectedOption || "Default",
             quantity: 1
@@ -55,27 +53,26 @@ function addToCart() {
         console.log("Product added:", foundProduct.title);
     }
 
-    // Save cart to localStorage
     localStorage.setItem("cart", JSON.stringify(cart));
 
-    // Alert the user
+    // user message
     alert(`Added ${foundProduct.title} to the cart!`);
 }
 
-// Function to load cart items on cart.html
+// cart.html functions
 function loadCart() {
     const cartContainer = document.getElementById("cart-container");
     const cartCount = document.getElementById("cart-count");
-    cartContainer.innerHTML = ""; // Clear previous content
+    cartContainer.innerHTML = ""; 
 
     if (cart.length === 0) {
-        cartContainer.innerHTML = `<p class="empty-cart">Your cart is empty.</p>`;
+        cartContainer.innerHTML = `<p style="margin-bottom:130px; margin-top:130px; text-align:center; color:white; font-size: 24px;" class="empty-cart">Your cart is empty.</p>`;
         cartCount.textContent = "0";
         return;
     }
 
     let totalPrice = 0;
-    cartCount.textContent = cart.length; // Update cart count
+    cartCount.textContent = cart.length; 
 
     cart.forEach((item, index) => {
         let itemTotal = item.price * item.quantity;
@@ -94,7 +91,7 @@ function loadCart() {
                         <button onclick="updateQuantity(${index}, 1)">+</button>
                     </p>
                     <p>Total: Rs.${itemTotal.toLocaleString()}</p>
-                    <button class="remove-btn" onclick="removeFromCart(${index})">Remove</button>
+                    <button class="remove-btn" onclick="removeFromCart(${index})"style="background-color: #fd4a4a; color: white; padding: 5px 10px; border: none; cursor: pointer; border-radius: 5px;">Remove</button>
                 </div>
             </div>
         `;
@@ -103,7 +100,7 @@ function loadCart() {
     cartContainer.innerHTML += `<h3>Total Price: Rs.${totalPrice.toLocaleString()}</h3>`;
 }
 
-// Function to update quantity
+// update quantity
 function updateQuantity(index, change) {
     cart[index].quantity += change;
 
@@ -115,21 +112,33 @@ function updateQuantity(index, change) {
     loadCart();
 }
 
-// Function to remove item from cart
+// remove item from cart
 function removeFromCart(index) {
     cart.splice(index, 1);
     localStorage.setItem("cart", JSON.stringify(cart));
     loadCart();
 }
 
-// Function to clear cart
+// clear cart
 function clearCart() {
     cart = [];
     localStorage.setItem("cart", JSON.stringify(cart));
     loadCart();
 }
 
-// Load cart on cart page
+//checkout
+function proceedToCheckout() {
+    if (cart.length === 0) {
+        alert("Your cart is empty. Add items before proceeding to checkout.");
+        return;
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+
+    window.location.href = "checkout.html";
+}
+
+
 document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById("cart-container")) {
         loadCart();
