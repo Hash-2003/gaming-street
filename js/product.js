@@ -1,12 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get("id");
+    let category = urlParams.get("category"); 
 
     let foundProduct = null;
-    //product-data looping
-    for (const category in products) {
-        foundProduct = products[category].find(product => product.id === productId);
-        if (foundProduct) break;
+    let foundCategory = null;
+
+    
+    for (const cat in products) {
+        const product = products[cat].find(prod => prod.id === productId);
+        if (product) {
+            foundProduct = product;
+            foundCategory = cat; 
+            break;
+        }
     }
 
     if (!foundProduct) {
@@ -15,19 +22,19 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    const product = foundProduct;
+    if (!category) {
+        category = foundCategory;
+    }
 
-    //product-details page update
-    document.getElementById("product-title").textContent = product.title;
-    document.getElementById("product-warranty").textContent = product.warranty;
-    document.getElementById("product-description").textContent = product.description;
-    document.getElementById("learn-more-link").href = product.link;
+    document.getElementById("product-title").textContent = foundProduct.title;
+    document.getElementById("product-warranty").textContent = foundProduct.warranty;
+    document.getElementById("product-description").textContent = foundProduct.description;
+    document.getElementById("learn-more-link").href = foundProduct.link;
     document.getElementById("learn-more-link").textContent = "Learn more";
 
-    // image slider
     let imageIndex = 0;
     const productImage = document.getElementById("product-image");
-    const images = product.images;
+    const images = foundProduct.images;
     productImage.src = images[imageIndex];
 
     window.prevImage = function () {
@@ -40,11 +47,10 @@ document.addEventListener("DOMContentLoaded", function () {
         productImage.src = images[imageIndex];
     };
 
-    // product options
     const optionsDropdown = document.getElementById("product-options");
     optionsDropdown.innerHTML = ""; 
 
-    for (const option in product.options) {
+    for (const option in foundProduct.options) {
         const optionElement = document.createElement("option");
         optionElement.value = option;
         optionElement.textContent = option;
@@ -52,21 +58,37 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     const priceElement = document.getElementById("product-price");
-    priceElement.textContent = `Rs.${product.basePrice.toLocaleString()}`;
+    priceElement.textContent = `Rs.${foundProduct.basePrice.toLocaleString()}`;
 
     optionsDropdown.addEventListener("change", function () {
         const selectedOption = optionsDropdown.value;
-        const extraCost = product.options[selectedOption] || 0;
-        const finalPrice = product.basePrice + extraCost;
+        const extraCost = foundProduct.options[selectedOption] || 0;
+        const finalPrice = foundProduct.basePrice + extraCost;
         priceElement.textContent = `Rs.${finalPrice.toLocaleString()}`;
     });
 
-    // specifications
+    // Update specifications
     const specsList = document.getElementById("product-specs");
     specsList.innerHTML = "";
-    product.specs.forEach(spec => {
+    foundProduct.specs.forEach(spec => {
         const li = document.createElement("li");
         li.textContent = spec;
         specsList.appendChild(li);
     });
+
+    // Update breadcrumbs
+    const categoryBreadcrumb = document.getElementById("breadcrumb-category");
+    const productBreadcrumb = document.getElementById("breadcrumb-product");
+
+    if (category && categoryBreadcrumb) {
+        // Format category name
+        const formattedCategory = category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+        categoryBreadcrumb.textContent = formattedCategory;
+        categoryBreadcrumb.href = `category.html?category=${category}`;
+    }
+
+    if (productBreadcrumb) {
+        productBreadcrumb.textContent = foundProduct.title;
+    }
 });

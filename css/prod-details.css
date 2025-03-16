@@ -182,6 +182,34 @@ body {
     font-size: 16px;
 }
 
+/*breadcrumbs*/
+.breadcrumb {
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav2 {
+    display: flex; 
+    justify-content: space-between;
+    padding:0 0px;
+}
+
 /* Footer */
 .footer {
     background-color: #000;
