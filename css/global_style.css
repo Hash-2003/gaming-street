@@ -67,6 +67,14 @@ body {
     padding: 15px 15px;
     border-radius: 5px;
 }
+
+/*Highligh current page on navbar*/
+.nav-links a.active {
+    color: #f6fe00; 
+    font-weight: bold;
+    text-shadow: 0 0 1px #f6fe00;
+}
+
 /*nav-button hover*/
 .navbar ul li a:hover {
     background-color: #f6fe00; 

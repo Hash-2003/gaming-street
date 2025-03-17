@@ -121,9 +121,11 @@ function removeFromCart(index) {
 
 // clear cart
 function clearCart() {
-    cart = [];
-    localStorage.setItem("cart", JSON.stringify(cart));
-    loadCart();
+    if (confirm("All the items in your cart will be deleted.")) {
+        cart = [];
+        localStorage.setItem("cart", JSON.stringify(cart));
+        loadCart();
+    }
 }
 
 //checkout
