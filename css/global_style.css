@@ -148,7 +148,7 @@ body {
     color: #fff !important; 
 }
 /*Home fixed Navbar*/
-.home .navbar {
+/*.home*/ .navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -157,6 +157,10 @@ body {
     z-index: 1000;
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home main{
+    margin-top: 80px;
 }
 
 /*cart*/

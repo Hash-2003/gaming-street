@@ -66,7 +66,7 @@ function loadCart() {
     cartContainer.innerHTML = ""; 
 
     if (cart.length === 0) {
-        cartContainer.innerHTML = `<p style="margin-bottom:130px; margin-top:130px; text-align:center; color:white; font-size: 24px;" class="empty-cart">Your cart is empty.</p>`;
+        cartContainer.innerHTML = `<p style="margin-bottom:105px; margin-top:105px; text-align:center; color:white; font-size: 24px;" class="empty-cart">Your cart is empty.</p>`;
         cartCount.textContent = "0";
         return;
     }
