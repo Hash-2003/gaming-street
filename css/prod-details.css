@@ -1,3 +1,7 @@
+main{
+    margin-top: 20px;
+}
+
 /* Background Image */
 body {
     background-image: url('../images/31880.jpg');
@@ -36,6 +40,7 @@ body {
     max-width: 400px;
     /*background-color: rgba(255, 255, 255, 0.1);*/
     padding: 10px;  
+    margin-right: 50px;
 }
 
 .product-image {
@@ -192,7 +197,7 @@ body {
 
 .breadcrumb a {
     text-decoration: none;
-    color: #007bff;
+    color: #ffffff;
 }
 
 .breadcrumb a:hover {
@@ -208,6 +213,7 @@ body {
     display: flex; 
     justify-content: space-between;
     padding:0 0px;
+    margin-top: 80px;
 }
 
 /* Footer */
