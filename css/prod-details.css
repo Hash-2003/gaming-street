@@ -196,12 +196,13 @@ body {
 }
 
 .breadcrumb a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #ffffff;
 }
 
 .breadcrumb a:hover {
     text-decoration: underline;
+    color: #0066cc;
 }
 
 .breadcrumb span {
