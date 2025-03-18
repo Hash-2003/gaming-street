@@ -66,7 +66,7 @@ function loadCart() {
     cartContainer.innerHTML = ""; 
 
     if (cart.length === 0) {
-        cartContainer.innerHTML = `<p style="margin-bottom:105px; margin-top:105px; text-align:center; color:white; font-size: 24px;" class="empty-cart">Your cart is empty.</p>`;
+        cartContainer.innerHTML = `<p style="margin-bottom:105px; margin-top:105px; text-align:center; color:; font-size: 24px;" class="empty-cart">Your cart is empty.</p>`;
         cartCount.textContent = "0";
         return;
     }
@@ -86,12 +86,12 @@ function loadCart() {
                     <p>Option: ${item.option}</p>
                     <p>Price: Rs.${item.price.toLocaleString()}</p>
                     <p>Quantity: 
-                        <button onclick="updateQuantity(${index}, -1)">-</button> 
+                        <button style="color:black;" onclick="updateQuantity(${index}, -1)">-</button> 
                         ${item.quantity} 
-                        <button onclick="updateQuantity(${index}, 1)">+</button>
+                        <button style="color:black;" onclick="updateQuantity(${index}, 1)">+</button>
                     </p>
                     <p>Total: Rs.${itemTotal.toLocaleString()}</p>
-                    <button class="remove-btn" onclick="removeFromCart(${index})"style="background-color: #fd4a4a; color: white; padding: 5px 10px; border: none; cursor: pointer; border-radius: 5px;">Remove</button>
+                    <button class="remove-btn" onclick="removeFromCart(${index})"style="background-color: #fd4a4a; color: black; padding: 5px 10px; border: none; cursor: pointer; border-radius: 5px;">Remove</button>
                 </div>
             </div>
         `;
