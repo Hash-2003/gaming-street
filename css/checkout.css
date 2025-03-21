@@ -84,6 +84,20 @@ input[type="radio"], input[type="checkbox"] {
     cursor: pointer;
 }
 
+#card-details, #koko-details {
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#card-details input, #koko-details input {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    width: 100%;
+}
+
 /* Terms and Conditions */
 .terms {
     display: flex;
