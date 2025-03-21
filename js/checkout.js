@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const kokoDetails = document.getElementById("koko-details");
     const paymentRadios = document.querySelectorAll('input[name="payment"]');
 
+    
+
     // Visibility of sub-forms
     paymentRadios.forEach(radio => {
         radio.addEventListener("change", function () {
@@ -29,6 +31,13 @@ document.addEventListener("DOMContentLoaded", function () {
         if (validateForm()) {
             placeOrder();
         }
+    });
+    //add - between every 4 digits
+    document.getElementById("card-number").addEventListener("input", function (e) {
+        let value = e.target.value.replace(/\D/g, ""); 
+        value = value.substring(0, 16); 
+        let formatted = value.match(/.{1,4}/g); 
+        e.target.value = formatted ? formatted.join("-") : "";
     });
 });
 
@@ -137,8 +146,9 @@ function validateForm() {
         const cardNumber = document.getElementById("card-number").value.trim();
         const expiryDate = document.getElementById("expiry-date").value.trim();
         const cvv = document.getElementById("cvv").value.trim();
+        const rawCardNumber = document.getElementById("card-number").value.trim().replace(/-/g, "");
 
-        if (!/^\d{16}$/.test(cardNumber)) {
+        if (!/^\d{16}$/.test(rawCardNumber)) {
             document.getElementById("card-number").style.border = "2px solid red";
             isValid = false;
         } else {
