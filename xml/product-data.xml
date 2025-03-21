@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <products>
+        <category name="gaming-laptops">
+
+            <product id="tuf-f15">
+                <brand>Asus</brand>
+                <title>ASUS TUF Gaming F15 RTX 4070</title>
+                <basePrice>409000</basePrice>
+                <warranty>2 Year ASUS International Warranty</warranty>
+                <description>A high-performance gaming laptop with Intel i7 and RTX 4070, designed for durability and power.</description>
+                <images>
+                    <image>images/tuf_f15_1.png</image>
+                    <image>images/tuf_f15_2.png</image>
+                </images>
+                <specs>
+                    <spec>Processor: Intel Core i7-13620H</spec>
+                    <spec>Graphics: NVIDIA GeForce RTX 4070 12GB</spec>
+                    <spec>Memory: 16GB, 32GB, 64GB DDR5</spec>
+                    <spec>Storage: 512GB, 1TB, 2TB NVMe SSD</spec>
+                    <spec>Display: 15.6-inch Full HD 144Hz</spec>
+                    <spec>Keyboard: RGB backlit</spec>
+                    <spec>Audio: Dolby Atmos, Hi-Res Audio</spec>
+                    <spec>Connectivity: Wi-Fi 6, Bluetooth 5.2</spec>
+                    <spec>Ports: USB-C, USB-A, HDMI, Ethernet</spec>
+                    <spec>Operating System: Windows 11</spec>
+                </specs>
+                <options>
+                    <option name="16GB 512GB SSD">0</option>
+                    <option name="32GB 1TB SSD">25000</option>
+                    <option name="64GB 2TB SSD">50000</option>
+                </options>
+                <link>https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-f15-2023/techspec/</link>
+            </product>
+
+        
+            <product id="legion-5">
+                <brand>Lenovo</brand>
+                <title>Lenovo Legion 5 RTX 4060</title>
+                <basePrice>375000</basePrice>
+                <warranty>1 Year Lenovo International Warranty</warranty>
+                <description>A powerful gaming laptop featuring Ryzen 7 and RTX 4060, offering smooth gaming performance.</description>
+                <images>
+                    <image>images/legion_5_1.png</image>
+                    <image>images/legion_5_2.png</image>
+                </images>
+                <specs>
+                    <spec>Processor: AMD Ryzen 7 5800H</spec>
+                    <spec>Graphics: NVIDIA GeForce RTX 4060 8GB</spec>
+                    <spec>Memory: 16GB DDR5</spec>
+                    <spec>Storage: 1TB NVMe SSD</spec>
+                    <spec>Display: 15.6-inch Full HD 165Hz</spec>
+                    <spec>Keyboard: RGB backlit</spec>
+                    <spec>Audio: Nahimic 3D Audio</spec>
+                    <spec>Connectivity: Wi-Fi 6, Bluetooth 5.1</spec>
+                    <spec>Ports: USB-C, USB-A, HDMI, Ethernet</spec>
+                    <spec>Operating System: Windows 11</spec>
+                </specs>
+                <options>
+                    <option name="16GB 1TB SSD">0</option>
+                    <option name="32GB 1TB SSD">20000</option>
+                </options>
+                <link>https://www.lenovo.com/lk/en/c/laptops/legion-laptops/legion-5-series/</link>
+            </product>
+
+            <product id="rog-g16">
+                <brand>Asus</brand>
+                <title>ASUS ROG Strix G16</title>
+                <basePrice>500000</basePrice>
+                <warranty>4 Year Asus International Warranty</warranty>
+                <description>The ASUS ROG Strix G16 is a high-performance gaming laptop designed for gamers and creators who demand power, speed, and a futuristic design. Built with the latest Intel Core 13th Gen processors and NVIDIA GeForce RTX 40-Series GPUs, it delivers outstanding gaming performance, high frame rates, and smooth multitasking.</description>
+                <images>
+                <image>images/rog_g16_1.png</image>
+                <image>images/rog_g16_2.png</image>
+                </images>
+                <specs>
+                <spec>Processor: Intel i7,i9 High performance</spec>
+                <spec>Graphics: NVIDIA GeForce RTX 4070 12GB</spec>
+                <spec>Memory: 16GB,32GB DDR5</spec>
+                <spec>Storage: 1TB,2TB NVMe SSD</spec>
+                <spec>Display: 16″ QHD+ 240Hz G-Sync</spec>
+                <spec>Keyboard: RGB backlit</spec>
+                <spec>Audio: Smart Amp Technology</spec>
+                <spec>Connectivity: Wi-Fi 6, Bluetooth 5.1</spec>
+                <spec>Ports: USB-C, USB-A, HDMI, Ethernet</spec>
+                <spec>Operating System: Windows 11</spec>
+                </specs>
+                <options>
+                <option name="i7 13980HX 16GB 1TB SSD">0</option>
+                <option name="i7 13650HX 32GB 2TB SSD">65000</option>
+                <option name="i9 13980HX 32GB 2TB SSD">150000</option>
+                </options>
+                <link>https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2023-series/</link>
+            </product>
+
+            <product id="katana-15">
+                <brand>MSI</brand>
+                <title>MSI Katana 15 B13VFK I7 13TH GEN RTX 4060 8GB</title>
+                <basePrice>420000</basePrice>
+                <warranty>2 Year MSI International Warranty</warranty>
+                <description>A powerful gaming laptop featuring Intel i7 and RTX 4060, offering smooth gaming performance.</description>
+                <images>
+                <image>images/katana_15_2.png</image>
+                <image>images/katana_15_1.png</image>
+                </images>
+                <specs>
+                <spec>Processor: Intel Core i7-13620H 10 Core (24M Cache, up to 4.90 GHz)</spec>
+                <spec>Graphics: NVIDIA GeForce RTX 4060 8GB GDDR6</spec>
+                <spec>Memory: 16GB,32GB DDR5</spec>
+                <spec>Storage: 1TB M.2 NVME GEN4 SSD</spec>
+                <spec>Display: 15.6 1080P 144Hz  NTSC IPS Level</spec>
+                <spec>Keyboard: 4-Zone RGB backlit</spec>
+                <spec>Audio: Dolby Atmos</spec>
+                <spec>Connectivity: Wi-Fi 6, Bluetooth 5.1</spec>
+                <spec>Ports: USB-C, USB-A, HDMI, Ethernet</spec>
+                <spec>Operating System: Windows 11</spec>
+                </specs>
+                <options>
+                <option name="16GB Memory">0</option>
+                <option name="32GB Memory">20000</option>
+                <option name="64GB Memory">40000</option>
+                </options>
+                <link>https://www.msi.com/Laptop/Katana-15-B13VX</link>
+            </product>
+
+            <product id="zephyrus-g16">
+                <brand>Asus</brand>
+                <title>Asus ROG Zephyrus G16</title>
+                <basePrice>630000</basePrice>
+                <warranty>3 Year Asus International Warranty</warranty>
+                <description>The 2025 Zephyrus G16 and Windows 11 Pro make gaming, creation, and everything in between a breeze. Featuring an Intel® Core™ Ultra 9 processor 285H and up to an NVIDIA® GeForce RTX™ 5090 Laptop GPU, this 16-inch machine can easily handle the latest games and cutting-edge creative software alike. The Zephyrus G16 can effortlessly transcribe voice notes into text documents, save valuable time during a video render, and play the latest AAA games at blazingly fast refresh rates. The future is here.</description>
+                <images>
+                <image>images/zephyrus_g16_1.png</image>
+                </images>
+                <specs>
+                <spec>Processor: Intel® Core™ Ultra 9 Processor 285H 2.9 GHz</spec>
+                <spec>Graphics: NVIDIA® GeForce RTX™ 50- series Laptop GPU</spec>
+                <spec>Intel NPU</spec>
+                <spec>Memory: 64GB,32GB DDR5</spec>
+                <spec>Storage: 2TB M.2 NVME GEN4 SSD</spec>
+                <spec>Display: 16-inch OLED screen, with a 240Hz refresh rate and G-SYNC</spec>
+                <spec>Keyboard: 4-Zone RGB backlit</spec>
+                <spec>Audio: Smart Amp Technology, Dolby Atmos</spec>
+                <spec>Connectivity: Wi-Fi 6, Bluetooth 5.1</spec>
+                <spec>Ports: USB-C, USB-A, HDMI, Ethernet</spec>
+                <spec>Operating System: Windows 11</spec>
+                </specs>
+                <options>
+                <option name="32GB Memory, RTX 5090 12GB">0</option>
+                <option name="32GB Memory, RTX 5090 24GB">98000</option>
+                <option name="64GB Memory, RTX 5090 32GB">150000</option>
+                </options>
+                <link>https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g16-2025-gu605/</link>
+            </product>
+        </category>
+
+        <category name="graphics-cards">
+
+            <product id="tuf-rtx4090">
+                <brand>Asus</brand>
+                <title>ASUS TUF Gaming RTX 4090</title>
+                <basePrice>320000</basePrice>
+                <warranty>2 Year Asus International Warranty</warranty>
+                <description>The ASUS TUF Gaming GeForce RTX 4090 is a high-performance gaming and workstation GPU, built for extreme power, durability, and cooling efficiency.</description>
+                <images>
+                    <image>images/tuf_4090_1.png</image>
+                    <image>images/tuf_4090_2.png</image>
+                </images>
+                <specs>
+                    <spec>CUDA Cores: 21,760</spec>
+                    <spec>Memory: 24GB GDDR6X</spec>
+                    <spec>Ray Tracing &amp; DLSS 3.0</spec>
+                    <spec>PCI Express 4.0</spec>
+                    <spec>TUF Military-Grade Components</spec>
+                </specs>
+                <options>
+                    <option name="Stock Edition">0</option>
+                    <option name="OC Edition">15000</option>
+                </options>
+                <link>https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4090-24g-gaming/</link>
+            </product>
+
+            <product id="pny-5090">
+                <brand>PNY</brand>
+                <title>PNY GeForce RTX 5090 12GB</title>
+                <basePrice>520000</basePrice>
+                <warranty>2 Year Manufacturer Warranty</warranty>
+                <description>The NVIDIA® GeForce RTX™ 5090 is the most powerful GeForce GPU ever made, bringing game-changing capabilities to gamers and creators.</description>
+                <images>
+                    <image>images/pny_5090_1.png</image>
+                    <image>images/pny_5090_2.png</image>
+                </images>
+                <specs>
+                    <spec>NVIDIA Blackwell Architecture</spec>
+                    <spec>12GB GDDR7 Memory</spec>
+                    <spec>PCI Express 5.0</spec>
+                    <spec>3x Display Port 1x HDMI</spec>
+                    <spec>21,760 CUDA® Cores</spec>
+                    <spec>600 W Thermal Design Power</spec>
+                </specs>
+                <options>
+                    <option name="-No options-">0</option>
+                </options>
+                <link>https://www.pny.com/geforce-rtx-5090-models</link>
+            </product>
+
+            <product id="msi-suprim-rtx4090">
+                <brand>MSI</brand>
+                <title>MSI GeForce RTX 4090 SUPRIM X</title>
+                <basePrice>340000</basePrice>
+                <warranty>3 Year MSI International Warranty</warranty>
+                <description>The MSI GeForce RTX 4090 SUPRIM X is built for maximum performance, featuring a premium cooling system, advanced ray tracing, and ultra-high frame rates for 4K gaming.</description>
+                <images>
+                    <image>images/suprim_4090_1.png</image>
+                    <image>images/suprim_4090_2.png</image>
+                </images>
+                <specs>
+                    <spec>CUDA Cores: 21,760</spec>
+                    <spec>Memory: 24GB GDDR6X</spec>
+                    <spec>Clock Speed: Boost Clock 2625 MHz</spec>
+                    <spec>PCI Express 4.0</spec>
+                    <spec>Triple Fan Cooling</spec>
+                    <spec>Metal Backplate with RGB Lighting</spec>
+                </specs>
+                <options>
+                    <option name="Stock Edition">0</option>
+                    <option name="OC Edition">20000</option>
+                </options>
+                <link>https://www.msi.com/Graphics-Card/GeForce-RTX-4090-SUPRIM-X-24G</link>
+            </product>
+
+            <product id="gigabyte-aorus-rtx4080">
+                <brand>Gigabyte</brand>
+                <title>Gigabyte AORUS GeForce RTX 4080 Master</title>
+                <basePrice>280000</basePrice>
+                <warranty>3 Year Gigabyte International Warranty</warranty>
+                <description>The Gigabyte AORUS GeForce RTX 4080 Master features advanced cooling, AI-powered graphics acceleration, and ultra-fast memory for next-generation gaming.</description>
+                <images>
+                    <image>images/aorus_4080_1.png</image>
+                    <image>images/aorus_4080_2.png</image>
+                </images>
+                <specs>
+                    <spec>CUDA Cores: 14,080</spec>
+                    <spec>Memory: 16GB GDDR6X</spec>
+                    <spec>Windforce 3X Cooling System</spec>
+                    <spec>AI Frame Generation (DLSS 3.0)</spec>
+                    <spec>PCI Express 4.0</spec>
+                    <spec>RGB Fusion 2.0 Lighting</spec>
+                </specs>
+                <options>
+                    <option name="Standard Edition">0</option>
+                    <option name="OC Edition">12000</option>
+                </options>
+                <link>https://www.gigabyte.com/Graphics-Card/GV-N4080AORUS-M-16GD</link>
+            </product>
+
+            <product id="rog-rtx4080-super">
+                <brand>Asus</brand>
+                <title>ASUS ROG Strix GeForce RTX 4080 SUPER 16GB OC Edition</title>
+                <basePrice>330000</basePrice>
+                <warranty>3 Year Asus International Warranty</warranty>
+                <description>The ROG Strix GeForce RTX 4080 SUPER 16GB GDDR6X OC Edition delivers top-tier AI performance, ultra-efficient cooling, and cutting-edge graphics technology with DLSS 3 and full ray tracing.</description>
+                <images>
+                    <image>images/rog_rtx4080_1.png</image>
+                    <image>images/rog_rtx4080_2.png</image>
+                </images>
+                <specs>
+                    <spec>AI Performance: 865 AI TOPS</spec>
+                    <spec>4th Gen Tensor Cores: Up to 4x performance with DLSS 3</spec>
+                    <spec>3rd Gen RT Cores: Up to 2X ray tracing performance</spec>
+                    <spec>OC Mode: 2670 MHz (OC mode) / 2640 MHz (Default mode)</spec>
+                    <spec>Axial-tech fans with 23% more airflow</spec>
+                    <spec>Patented vapor chamber for superior cooling</spec>
+                    <spec>3.5-slot massive heatsink design</spec>
+                    <spec>Digital power control with high-current power stages</spec>
+                    <spec>Auto-Extreme precision manufacturing for high reliability</spec>
+                    <spec>Memory: 16GB GDDR6X</spec>
+                    <spec>CUDA Cores: 10,240</spec>
+                    <spec>Memory Speed: 23 Gbps</spec>
+                    <spec>Memory Interface: 256-bit</spec>
+                    <spec>Display Outputs: 2 x HDMI 2.1a, 3 x DisplayPort 1.4a</spec>
+                    <spec>Max Resolution: 7680 x 4320</spec>
+                    <spec>Power Supply Requirement: 850W</spec>
+                    <spec>Power Connector: 1 x 16-pin</spec>
+                    <spec>ARGB Aura Sync Support</spec>
+                    <spec>Dimensions: 357.6 x 149.3 x 70.1mm</spec>
+                </specs>
+                <options>
+                    <option name="-No options-">0</option>
+                </options>
+                <link>https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080s-o16g-gaming/</link>
+            </product>
+
+        </category>
+
+        <category name="ssds-rams">
+
+            <product id="sam-ssd980-500">
+                <brand>samsung</brand>
+                <title>Samsung 980 500GB NVMe SSD</title>
+                <basePrice>18000</basePrice>
+                <warranty>2 Year Manufacturer Warranty</warranty>
+                <description>The Samsung 980 500GB SSD features NVMe interface, providing faster data transfer rates than traditional SATA-based solid-state drives.</description>
+                <images>
+                    <image>images/sam_980_500.png</image>
+                </images>
+                <specs>
+                    <spec>980 PCIe 3.0 NVMe SSD</spec>
+                    <spec>500GB Storage Capacity</spec>
+                    <spec>M.2 2280 Form Factor</spec>
+                    <spec>PCIe 3.0 Interface</spec>
+                    <spec>1.5 Million Hours Reliability (MTBF)</spec>
+                </specs>
+                <options>
+                    <option name="-No options-">0</option>
+                </options>
+                <link>https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pcie-3-0-nvme-gaming-ssd-500gb-mz-v8v500b-am/</link>
+            </product>
+
+            <product id="wd-black-sn850x">
+                <brand>SanDisk</brand>
+                <title>WD Black SN850X 500GB, 1TB, 2TB NVMe SSD</title>
+                <basePrice>27000</basePrice>
+                <warranty>5 Year Manufacturer Warranty</warranty>
+                <description>The WD Black SN850X NVMe SSD is designed for high-performance gaming with ultra-fast speeds, PCIe Gen4 technology, and improved thermal efficiency.</description>
+                <images>
+                    <image>images/wd_sn850x.png</image>
+                </images>
+                <specs>
+                    <spec>WD Black SN850X PCIe 4.0 NVMe SSD</spec>
+                    <spec>500GB,1TB,2TB Storage Capacity</spec>
+                    <spec>M.2 2280 Form Factor</spec>
+                    <spec>PCIe 4.0 Interface</spec>
+                    <spec>Read Speed: Up to 7,300 MB/s</spec>
+                    <spec>Write Speed: Up to 6,300 MB/s</spec>
+                    <spec>Heatsink Option for Cooling</spec>
+                </specs>
+                <options>
+                    <option name="500GB">0</option>
+                    <option name="1TB">12000</option>
+                    <option name="2TB">27000</option>
+                </options>
+                <link>https://www.westerndigital.com/products/internal-drives/wd-black-sn850x-nvme-ssd</link>
+            </product>
+
+            <product id="crucial-p5-plus-2tb">
+                <brand>Crucial</brand>
+                <title>Crucial P5 Plus 2TB NVMe SSD</title>
+                <basePrice>55000</basePrice>
+                <warranty>5 Year Crucial International Warranty</warranty>
+                <description>The Crucial P5 Plus 2TB NVMe SSD delivers extreme performance with PCIe Gen4 speeds, superior reliability, and optimal gaming responsiveness.</description>
+                <images>
+                    <image>images/crucial_p5_1.png</image>
+                    <image>images/crucial_p5_2.png</image>
+                </images>
+                <specs>
+                    <spec>Crucial P5 Plus PCIe 4.0 NVMe SSD</spec>
+                    <spec>2TB Storage Capacity</spec>
+                    <spec>M.2 2280 Form Factor</spec>
+                    <spec>PCIe 4.0 Interface</spec>
+                    <spec>Read Speed: Up to 6,600 MB/s</spec>
+                    <spec>Write Speed: Up to 5,000 MB/s</spec>
+                    <spec>Advanced Thermal Management</spec>
+                </specs>
+                <options>
+                    <option name="-No options-">0</option>
+                </options>
+                <link>https://www.crucial.com/products/ssd/crucial-p5-plus-ssd</link>
+            </product>
+
+            <product id="crucial-ddr5-6000-ram">
+                <brand>Crucial</brand>
+                <title>Crucial Pro DDR5-6000 64GB Kit UDIMM:Gaming Ram</title>
+                <basePrice>60000</basePrice>
+                <warranty>4 Year Crucial International Warranty</warranty>
+                <description>Push performance to the next level with the blazing speed and massive bandwidth of Crucial DDR5 Pro OC Gaming Memory. Mobilize the power of low latency to beat the clock and fuel your next win instead of worrying about performance bottlenecks. This powerful, high-performance memory supports next-gen multi-core CPUs and stable overclocking with Intel® XMP 3.0 and AMD EXPO™. Available in black or white.</description>
+                <images>
+                    <image>images/crucial_ram_1.png</image>
+                </images>
+                <specs>
+                    <spec>64GB Memory</spec>
+                    <spec>UDIMM OC</spec>
+                    <spec>Speed: 6400MHz</spec>
+                    <spec>Advanced Thermal Management</spec>
+                </specs>
+                <options>
+                    <option name="-No options-">0</option>
+                </options>
+                <link>https://www.crucial.com/memory/ddr5/CP2K32G60C40U5W?_gl=1*2glgec*_up*MQ..*_ga*MzYwMzg0MTcyLjE3NDE5NDY2ODE.*_ga_6H4RYWV7QY*MTc0MTk0NjY4MS4xLjEuMTc0MTk0NzQwOC4wLjAuMTgwNjAxNDgzNw..</link>
+            </product>
+
+            <product id="adata-ddr5_ram">
+                <brand>ADATA</brand>
+                <title>ADATA DDR5 32GB 5600MHZ LAPTOP Ram</title>
+                <basePrice>40000</basePrice>
+                <warranty>2 Year Shop Warranty</warranty>
+                <description>The Crucial P5 Plus 2TB NVMe SSD delivers extreme performance with PCIe Gen4 speeds, superior reliability, and optimal gaming responsiveness.</description>
+                <images>
+                    <image>images/adata_lapram_2.png</image>
+                    <image>images/adata_lapram_1.png</image>
+                </images>
+                <specs>
+                    <spec>Memory Type: DDR5</spec>
+                    <spec>SO-DIMM Form Factor</spec>
+                    <spec>Capacity: 32GB</spec>
+                    <spec>Speed: 5600 MHz</spec>
+                    <spec>Operating Temperature: 0°C to 85°C</spec>
+                </specs>
+                <options>
+                    <option name="-No options-">0</option>
+                </options>
+                <link>https://www.adata.com/en/consumer/category/computer-memory/dram-module-ddr5-5600-so-dimm/</link>
+            </product>
+
+            <product id="samsung-external-t7">
+                <brand>Samsung</brand>
+                <title>SAMSUNG T7 Shield 2TB,4TB Portable SSD</title>
+                <basePrice>75000</basePrice>
+                <warranty>2 Year Samsung International Warranty</warranty>
+                <description>Tough, fast, and compact. The all new rugged PSSD T7 Shield is built to endure with the space to create thanks to an IP65 rating for Dust and Water resistance.</description>
+                <images>
+                    <image>images/sam_t7_1.png</image>
+                    <image>images/sam_t7_2.png</image>
+                </images>
+                <specs>
+                    <spec>USB3.2 Gen3</spec>
+                    <spec>2TB,4TB Storage Capacity</spec>
+                    <spec>Weight: 94g</spec>
+                    <spec>PCIe 4.0 Interface</spec>
+                    <spec>Speed: 10Gb/s</spec>
+                    <spec>Encryption: AES 256-bit hardware encryption</spec>
+                </specs>
+                <options>
+                    <option name="2TB">0</option>
+                    <option name="4TB">27500</option>
+                </options>
+                <link>https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t7-shield-usb-3-2-4tb-black-mu-pe4t0s-am/</link>
+            </product>
+
+        </category>
+
+        <category name="processors">
+
+            <product id="amd-ryzen7-9800x3d">
+            <brand>AMD</brand>
+            <title>AMD Ryzen 7 9800X3D</title>
+            <basePrice>185000</basePrice>
+            <warranty>3 Year AMD International Warranty</warranty>
+            <description>The AMD Ryzen 7 9800X3D features 3D V-Cache technology, offering superior gaming performance with 8 cores and 16 threads, making it an excellent choice for high-end gaming and content creation.</description>
+            <images>
+                <image>images/amd_ry7.png</image>
+            </images>
+            <specs>
+                <spec>Cores: 8</spec>
+                <spec>Threads: 16</spec>
+                <spec>Base Clock: 4.2 GHz</spec>
+                <spec>Max Boost Clock: Up to 5.2 GHz</spec>
+                <spec>Cache: 96MB L3 Cache</spec>
+                <spec>TDP: 120W</spec>
+                <spec>Socket: AM5</spec>
+                <spec>PCIe 5.0 Support</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html</link>
+            </product>
+
+            <product id="amd-ryzen9-9950x">
+            <brand>AMD</brand>
+            <title>AMD Ryzen 9 9950X</title>
+            <basePrice>235000</basePrice>
+            <warranty>3 Year AMD International Warranty</warranty>
+            <description>The AMD Ryzen 9 7950X is a high-end desktop processor with 16 cores and 32 threads, delivering incredible performance for gaming, streaming, and multi-threaded workloads.</description>
+            <images>
+                <image>images/ryz_9.png</image>
+            </images>
+            <specs>
+                <spec>Cores: 16</spec>
+                <spec>Threads: 32</spec>
+                <spec>Base Clock: 4.5 GHz</spec>
+                <spec>Max Boost Clock: Up to 5.7 GHz</spec>
+                <spec>Cache: 80MB (L2+L3)</spec>
+                <spec>TDP: 170W</spec>
+                <spec>Socket: AM5</spec>
+                <spec>PCIe 5.0 Support</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-9-9950x.html</link>
+            </product>
+
+            <product id="intel-ultra7-265k">
+            <brand>Intel</brand>
+            <title>Intel Core Ultra 7 265K</title>
+            <basePrice>134500</basePrice>
+            <warranty>3 Year Intel International Warranty</warranty>
+            <description>The Intel Core Ultra 7 265K is a high-performance desktop processor featuring AI-enhanced computing, high core counts, and cutting-edge Intel technologies for gaming and professional workloads.</description>
+            <images>
+                <image>images/intel_u7.png</image>
+            </images>
+            <specs>
+                <spec>Cores: 20 (8 Performance + 12 Efficient)</spec>
+                <spec>Threads: 20</spec>
+                <spec>Base Clock: 3.9 GHz (P-Cores), 3.3 GHz (E-Cores)</spec>
+                <spec>Max Turbo Frequency: Up to 5.5 GHz</spec>
+                <spec>Cache: 30MB Intel Smart Cache</spec>
+                <spec>Total L2 Cache: 36MB</spec>
+                <spec>TDP: 125W (Base), 250W (Turbo)</spec>
+                <spec>Memory Support: Up to 192GB DDR5 6400 MT/s</spec>
+                <spec>PCI Express: Gen 5.0 & 4.0 (24 Lanes)</spec>
+                <spec>Integrated Graphics: Intel Graphics with 4 Xe-Cores</spec>
+                <spec>Graphics Max Frequency: 2.0 GHz</spec>
+                <spec>Display Support: 4K @ 60Hz (HDMI), 8K @ 60Hz (DP)</spec>
+                <spec>AI Processing: Intel AI Boost, Deep Learning Support</spec>
+                <spec>Thunderbolt 4 Support: Yes</spec>
+                <spec>Socket: LGA1851 (15th Gen Intel)</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.intel.com/content/www/us/en/products/sku/241063/intel-core-ultra-7-processor-265k-30m-cache-up-to-5-50-ghz/specifications.html</link>
+            </product>
+
+            <product id="intel-ultra9-285k">
+            <brand>Intel</brand>
+            <title>Intel Core Ultra 9 285K</title>
+            <basePrice>194000</basePrice>
+            <warranty>3 Year Intel International Warranty</warranty>
+            <description>The Intel Core Ultra 9 285K is a high-end desktop processor designed for extreme gaming, AI-powered applications, and professional workloads with cutting-edge performance and efficiency.</description>
+            <images>
+                <image>images/intel_u9.png</image>
+            </images>
+            <specs>
+                <spec>Cores: 24 (8 Performance + 16 Efficient)</spec>
+                <spec>Threads: 24</spec>
+                <spec>Base Clock: 3.7 GHz (P-Cores), 3.2 GHz (E-Cores)</spec>
+                <spec>Max Turbo Frequency: Up to 5.7 GHz</spec>
+                <spec>Intel Turbo Boost Max 3.0 Frequency: 5.6 GHz</spec>
+                <spec>Cache: 36MB Intel Smart Cache</spec>
+                <spec>Total L2 Cache: 40MB</spec>
+                <spec>TDP: 125W (Base), 250W (Turbo)</spec>
+                <spec>Memory Support: Up to 192GB DDR5 6400 MT/s</spec>
+                <spec>PCI Express: Gen 5.0 & 4.0 (24 Lanes)</spec>
+                <spec>Integrated Graphics: Intel Graphics with 4 Xe-Cores</spec>
+                <spec>Graphics Max Frequency: 2.0 GHz</spec>
+                <spec>Display Support: 4K @ 60Hz (HDMI), 8K @ 60Hz (DP)</spec>
+                <spec>AI Processing: Intel AI Boost, Deep Learning Support</spec>
+                <spec>Thunderbolt 4 Support: Yes</spec>
+                <spec>Socket: LGA1851 (15th Gen Intel)</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html</link>
+            </product>
+
+            <product id="amd-ryzen5-8500g">
+            <brand>AMD</brand>
+            <title>AMD Ryzen 5 8500G</title>
+            <basePrice>57500</basePrice>
+            <warranty>3 Year AMD International Warranty</warranty>
+            <description>The AMD Ryzen 5 8500G is a 6-core, 12-thread processor with built-in Radeon graphics, designed for gaming, content creation, and efficient multitasking.</description>
+            <images>
+                <image>images/ryz_5.png</image>
+            </images>
+            <specs>
+                <spec>Cores: 6</spec>
+                <spec>Threads: 12</spec>
+                <spec>Base Clock: 3.5 GHz</spec>
+                <spec>Max Boost Clock: Up to 5.0 GHz</spec>
+                <spec>Cache: 6MB L2, 16MB L3</spec>
+                <spec>Default TDP: 65W</spec>
+                <spec>Memory Support: Up to DDR5 6400 MT/s</spec>
+                <spec>PCI Express: Gen 4.0</spec>
+                <spec>Integrated Graphics: AMD Radeon Graphics</spec>
+                <spec>Max Operating Temperature: 95°C</spec>
+                <spec>Socket: AM5</spec>
+                <spec>Supported OS: Windows 11, Windows 10, RHEL, Ubuntu</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.amd.com/en/products/processors/desktops/ryzen/8000-series/amd-ryzen-5-8500g.html</link>
+            </product>
+
+        </category>
+
+        <category name="accessories">
+
+            <product id="logitech-gpro-x">
+            <brand>Logitech</brand>
+            <title>Logitech G Pro X Wireless Gaming Headset</title>
+            <basePrice>42000</basePrice>
+            <warranty>2 Year Logitech Warranty</warranty>
+            <description>The Logitech G Pro X Wireless headset delivers pro-level sound and premium comfort with Blue VO!CE technology, DTS surround sound, and a lightweight design.</description>
+            <images>
+                <image>images/logi_headset_1.png</image>
+                <image>images/logi_headset_2.png</image>
+            </images>
+            <specs>
+                <spec>Connectivity: Wireless (Lightspeed 2.4GHz)</spec>
+                <spec>Drivers: 50mm PRO-G</spec>
+                <spec>Surround Sound: DTS Headphone:X 2.0</spec>
+                <spec>Battery Life: Up to 20 hours</spec>
+                <spec>Microphone: Detachable with Blue VO!CE</spec>
+                <spec>Compatibility: PC, PlayStation, Mobile</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.logitechg.com/en-us/products/gaming-audio/pro-x-wireless-headset.981-000906.html</link>
+            </product>
+
+            <product id="razer-huntsman-mini">
+            <brand>Razer</brand>
+            <title>Razer Huntsman Mini Gaming Keyboard</title>
+            <basePrice>38000</basePrice>
+            <warranty>2 Year Razer Warranty</warranty>
+            <description>The Razer Huntsman Mini is a compact 60% gaming keyboard with Razer Optical switches, designed for ultra-fast response and durability.</description>
+            <images>
+                <image>images/razer_mini_key_1.png</image>
+                <image>images/razer_mini_key_2.png</image>
+            </images>
+            <specs>
+                <spec>Switch Type: Razer Optical Switches</spec>
+                <spec>Keycap Material: Doubleshot PBT</spec>
+                <spec>Backlighting: Razer Chroma RGB</spec>
+                <spec>Size: 60% compact form factor</spec>
+                <spec>Connectivity: USB-C detachable cable</spec>
+                <spec>Compatibility: Windows, macOS</spec>
+            </specs>
+            <options>
+                <option name="Clicky Optical Switches">0</option>
+                <option name="Linear Optical Switches">2000</option>
+            </options>
+            <link>https://www.razer.com/gaming-keyboards/razer-huntsman-mini</link>
+            </product>
+
+            <product id="corsair-mm700">
+            <brand>Corsair</brand>
+            <title>Corsair MM700 RGB Extended Gaming Mousepad</title>
+            <basePrice>14000</basePrice>
+            <warranty>1 Year Corsair Warranty</warranty>
+            <description>The Corsair MM700 RGB Extended Mousepad features dynamic RGB lighting, a smooth micro-weave surface, and USB passthrough for seamless gaming.</description>
+            <images>
+                <image>images/corsair_mm700_2.png</image>
+                <image>images/corsair_mm700_1.png</image>
+            </images>
+            <specs>
+                <spec>Dimensions: 930mm x 400mm x 4mm</spec>
+                <spec>Lighting: Dynamic 3-zone RGB</spec>
+                <spec>Surface: Micro-weave cloth for precision</spec>
+                <spec>Base: Non-slip rubber</spec>
+                <spec>USB Hub: Two USB ports</spec>
+                <spec>Compatibility: Windows, macOS</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.corsair.com/us/en/p/CH-9417070-WW</link>
+            </product>
+
+            <product id="steelseries-aerox3">
+            <brand>StealSeries</brand>
+            <title>SteelSeries Aerox 3 Wireless Gaming Mouse</title>
+            <basePrice>26000</basePrice>
+            <warranty>1 Year SteelSeries Warranty</warranty>
+            <description>The SteelSeries Aerox 3 Wireless is an ultra-lightweight gaming mouse with fast wireless connectivity and AquaBarrier protection.</description>
+            <images>
+                <image>images/steelseries_aerox3_1.png</image>
+                <image>images/steelseries_aerox3_2.png</image>
+            </images>
+            <specs>
+                <spec>Weight: 66g ultralight design</spec>
+                <spec>Sensor: TrueMove Air Optical Sensor</spec>
+                <spec>DPI: Up to 18,000 CPI</spec>
+                <spec>Connectivity: Wireless 2.4GHz / Bluetooth</spec>
+                <spec>Battery Life: Up to 200 hours</spec>
+                <spec>Compatibility: PC, macOS, PlayStation</spec>
+            </specs>
+            <options>
+                <option name="Black Edition">0</option>
+                <option name="White Edition">1500</option>
+            </options>
+            <link>https://steelseries.com/gaming-mice/aerox-3-wireless-2022</link>
+            </product>
+
+            <product id="elgato-streamdeck">
+            <brand>Elgato</brand>
+            <title>Elgato Stream Deck MK.2</title>
+            <basePrice>55000</basePrice>
+            <warranty>1 Year Elgato Warranty</warranty>
+            <description>The Elgato Stream Deck MK.2 is a customizable 15-key controller for streamers, video editors, and content creators, allowing quick access to shortcuts and automation.</description>
+            <images>
+                <image>images/elgato_streamdeck_1.png</image>
+            </images>
+            <specs>
+                <spec>Keys: 15 customizable LCD keys</spec>
+                <spec>Software: Elgato Stream Deck software</spec>
+                <spec>Connectivity: USB-C to USB-A</spec>
+                <spec>Adjustable Stand: Yes</spec>
+                <spec>RGB Lighting: Yes</spec>
+                <spec>Compatibility: Windows, macOS</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.elgato.com/en/stream-deck</link>
+            </product>
+
+            <product id="logitech-pro-x-superlight-2-dex">
+            <brand>Logitech</brand>
+            <title>Logitech PRO X SUPERLIGHT 2 DEX</title>
+            <basePrice>45000</basePrice>
+            <warranty>2-Year Limited Hardware Warranty</warranty>
+            <description>PRO X SUPERLIGHT 2 DEX is a 60g asymmetrical mouse featuring advanced HERO 2 sensor, robust LIGHTSPEED wireless, and LIGHTFORCE switches while delivering up to 95 hours of battery life.</description>
+            <images>
+                <image>images/logitech_prodex_1.png</image>
+                <image>images/logitech_prodex_2.png</image>
+            </images>
+            <specs>
+                <spec>Onboard memory: 1 Advanced features require Logitech G HUB Software</spec>
+                <spec>Buttons: 5</spec>
+                <spec>Sensor: HERO 2</spec>
+                <spec>Resolution: 100 – 44,000 DPI</spec>
+                <spec>Max acceleration: &gt;88 G (Tested on Logitech G640 Gaming Mouse Pad)</spec>
+                <spec>Max speed: &gt;888 IPS (Tested on Logitech G640 Gaming Mouse Pad)</spec>
+                <spec>Zero smoothing/acceleration/filtering</spec>
+                <spec>Max wired report rate: 1000Hz (1ms)</spec>
+                <spec>Max LIGHTSPEED report rate: 8000Hz (0.25ms)</spec>
+                <spec>Battery life (constant motion): 95 hours</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-dex.910-007328.html</link>
+            </product>
+
+            <product id="razer-hammerhead-pro">
+            <brand>Razer</brand>
+            <title>Razer Hammerhead Pro HyperSpeed Wireless Gaming Earbuds</title>
+            <basePrice>55000</basePrice>
+            <warranty>2 Year Razer International Warranty</warranty>
+            <description>The Razer Hammerhead Pro HyperSpeed delivers cutting-edge wireless audio for gamers, featuring HyperSpeed Wireless, Bluetooth 5.3, Adjustable ANC, and Chroma RGB lighting with up to 30 hours of battery life.</description>
+            <images>
+                <image>images/razer_hammerhead_pro_1.png</image>
+                <image>images/razer_hammerhead_pro_2.png</image>
+            </images>
+            <specs>
+                <spec>Connectivity: Razer HyperSpeed Wireless (2.4GHz) &amp; Bluetooth 5.3</spec>
+                <spec>Adjustable Active Noise Cancellation (ANC)</spec>
+                <spec>Fast Wireless Charging Case with 24hr Additional Battery</spec>
+                <spec>Battery Life: Up to 30 Hours (with charging case)</spec>
+                <spec>Chroma RGB Lighting with 16.8 Million Colors</spec>
+                <spec>Dual-Wireless Connection with Do Not Disturb Mode</spec>
+                <spec>Compatibility: PC, PlayStation, Switch, Mobile, Steam Deck</spec>
+                <spec>USB-A / USB-C Dongle Included</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.razer.com/mobile-earphones/razer-hammerhead-true-wireless-pro</link>
+            </product>
+
+            <product id="logitech-g515-tkl">
+            <brand>Logitech</brand>
+            <title>Logitech G515 TKL Wired Gaming Keyboard</title>
+            <basePrice>8999</basePrice>
+            <warranty>2 Year Logitech Warranty</warranty>
+            <description>The Logitech G515 TKL is a wired tenkeyless gaming keyboard that combines high performance with a low-profile design. Engineered for durability and finely-tuned for intense gaming moments.</description>
+            <images>
+                <image>images/logitech_g515_1.png</image>
+            </images>
+            <specs>
+                <spec>Tenkeyless (TKL) design for a compact setup</spec>
+                <spec>Ultra-low profile mechanical switches</spec>
+                <spec>Personalizable RGB lighting</spec>
+                <spec>Wired USB connection</spec>
+                <spec>Durable aluminum top plate</spec>
+                <spec>Customizable macros and key assignments</spec>
+                <spec>Compatible with Windows and macOS</spec>
+                <spec>Free shipping and returns</spec>
+            </specs>
+            <options>
+                <option name="Black">0</option>
+            </options>
+            <link>https://www.logitechg.com/en-us/products/gaming-keyboards/g515-tkl-wired.html</link>
+            </product>
+
+            <product id="samsung-qd-oled-g8">
+            <brand>Samsung</brand>
+            <title>Samsung 34" Odyssey QD-OLED G8 Ultra-WQHD Gaming Monitor</title>
+            <basePrice>328499</basePrice>
+            <warranty>3-Year Manufacturer Warranty</warranty>
+            <description>The Samsung Odyssey QD-OLED G8 delivers ultra-high performance with a 34-inch Ultra-WQHD display, 175Hz refresh rate, and 0.03ms response time for seamless, tear-free gaming.</description>
+            <images>
+                <image>images/samsung_qd_oled_g8_1.png</image>
+                <image>images/samsung_qd_oled_g8_2.png</image>
+            </images>
+            <specs>
+                <spec>Display: 34-inch Ultra-WQHD (3440 x 1440)</spec>
+                <spec>Panel Type: QD-OLED Curved</spec>
+                <spec>Aspect Ratio: 21:9</spec>
+                <spec>Refresh Rate: 175Hz</spec>
+                <spec>Response Time: 0.03ms (GtG)</spec>
+                <spec>G-Sync &amp; FreeSync Compatible</spec>
+                <spec>Pixel Density: 110 PPI</spec>
+                <spec>Glare Free Technology</spec>
+                <spec>OLED Safeguard: Thermal Modulation System</spec>
+                <spec>Smart Features: Gaming Hub, Smart TV Apps</spec>
+                <spec>Connectivity: HDMI 2.1, DisplayPort, USB-C</spec>
+                <spec>Ergonomic Stand with Height, Tilt &amp; Swivel Adjustment</spec>
+                <spec>Slim Metal Design</spec>
+                <spec>Warranty: 3 Years Manufacturer Warranty</spec>
+            </specs>
+            <options>
+                <option name="-No options-">0</option>
+            </options>
+            <link>https://www.samsung.com/us/computing/monitors/gaming/34-odyssey-qd-oled-g8-ultra-wqhd-175hz-g-sync-compatible-curved-gaming-monitor-ls34dg856snxza/</link>
+            </product>
+
+        </category>
+
+    </products>
