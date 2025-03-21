@@ -6,6 +6,7 @@
     <title></title>
     <link rel="stylesheet" href="css/global_style.css">
     <link rel="stylesheet" href="css/category.css">
+    <script defer src="js/product-loader.js"></script>
     <script defer src="js/product-category.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -90,23 +91,20 @@
     </footer>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-        const urlParams = new URLSearchParams(window.location.search);
-        const category = urlParams.get("category");
-
-        if (category) {
-            const formattedCategory = category.replace("-", " ").toUpperCase();
-
-            document.title = `Gaming Street - ${formattedCategory}`;
-
-            document.getElementById("category-title").textContent = formattedCategory;
-        } else {
-            document.title = "Gaming Street - Category";
-            document.getElementById("category-title").textContent = "Category";
-        }
-
-        loadProducts(category);
-    });
-
+            const urlParams = new URLSearchParams(window.location.search);
+            const category = urlParams.get("category");
+    
+            if (category) {
+                const formattedCategory = category.replace("-", " ").toUpperCase();
+    
+                document.title = `Gaming Street - ${formattedCategory}`;
+                document.getElementById("category-title").textContent = formattedCategory;
+            } else {
+                document.title = "Gaming Street - Category";
+                document.getElementById("category-title").textContent = "Category";
+            }
+        });
     </script>
+    
 </body>
 </html>
