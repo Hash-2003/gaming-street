@@ -411,7 +411,7 @@ const products = {
         {
             id: "rog-rtx4080-super",
             brand: "Asus",
-            title: "ROG Strix GeForce RTX 4080 SUPER 16GB OC Edition",
+            title: "ASUS ROG Strix GeForce RTX 4080 SUPER 16GB OC Edition",
             images: ["images/rog_rtx4080_1.png", "images/rog_rtx4080_2.png"],
             basePrice: 330000,  
             warranty: "3 Year Asus International Warranty",
@@ -744,6 +744,7 @@ const products = {
 
     {
         id: "razer-huntsman-mini",
+        brand: "Razer",
         title: "Razer Huntsman Mini Gaming Keyboard",
         images: ["images/razer_mini_key_1.png", "images/razer_mini_key_2.png"],
         basePrice: 38000,
@@ -766,6 +767,7 @@ const products = {
 
     {
         id: "corsair-mm700",
+        brand: "Corsair",
         title: "Corsair MM700 RGB Extended Gaming Mousepad",
         images: ["images/corsair_mm700_2.png", "images/corsair_mm700_1.png"],
         basePrice: 14000,
@@ -787,6 +789,7 @@ const products = {
 
     {
         id: "steelseries-aerox3",
+        brand: "StealSeries",
         title: "SteelSeries Aerox 3 Wireless Gaming Mouse",
         images: ["images/steelseries_aerox3_1.png", "images/steelseries_aerox3_2.png"],
         basePrice: 26000,
@@ -809,6 +812,7 @@ const products = {
 
     {
         id: "elgato-streamdeck",
+        brand: "Elgato",
         title: "Elgato Stream Deck MK.2",
         images: ["images/elgato_streamdeck_1.png"],
         basePrice: 55000,
