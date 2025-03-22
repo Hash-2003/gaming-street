@@ -1,18 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get("id");
-    let category = urlParams.get("category"); 
+    let category = urlParams.get("category");
+
+    await loadProductDataFromXML(); // XML Load wait
 
     let foundProduct = null;
-    let foundCategory = null;
 
-    
-    for (const cat in products) {
-        const product = products[cat].find(prod => prod.id === productId);
-        if (product) {
-            foundProduct = product;
-            foundCategory = cat; 
-            break;
+    if (category && productData[category]) {
+        foundProduct = productData[category].find(p => p.id === productId);
+    }
+
+    //search all categories if not found in specific one
+    if (!foundProduct) {
+        for (const cat in productData) {
+            const product = productData[cat].find(p => p.id === productId);
+            if (product) {
+                foundProduct = product;
+                category = cat;
+                break;
+            }
         }
     }
 
@@ -22,16 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
     }
 
-    if (!category) {
-        category = foundCategory;
-    }
-
+    // Update content
     document.getElementById("product-title").textContent = foundProduct.title;
     document.getElementById("product-warranty").textContent = foundProduct.warranty;
     document.getElementById("product-description").textContent = foundProduct.description;
     document.getElementById("learn-more-link").href = foundProduct.link;
     document.getElementById("learn-more-link").textContent = "Learn more";
 
+    // Image slider
     let imageIndex = 0;
     const productImage = document.getElementById("product-image");
     const images = foundProduct.images;
@@ -47,27 +52,28 @@ document.addEventListener("DOMContentLoaded", function () {
         productImage.src = images[imageIndex];
     };
 
+    // Options
     const optionsDropdown = document.getElementById("product-options");
-    optionsDropdown.innerHTML = ""; 
+    optionsDropdown.innerHTML = "";
 
     for (const option in foundProduct.options) {
-        const optionElement = document.createElement("option");
-        optionElement.value = option;
-        optionElement.textContent = option;
-        optionsDropdown.appendChild(optionElement);
+        const optElem = document.createElement("option");
+        optElem.value = option;
+        optElem.textContent = option;
+        optionsDropdown.appendChild(optElem);
     }
 
     const priceElement = document.getElementById("product-price");
     priceElement.textContent = `Rs.${foundProduct.basePrice.toLocaleString()}`;
 
-    optionsDropdown.addEventListener("change", function () {
-        const selectedOption = optionsDropdown.value;
-        const extraCost = foundProduct.options[selectedOption] || 0;
-        const finalPrice = foundProduct.basePrice + extraCost;
-        priceElement.textContent = `Rs.${finalPrice.toLocaleString()}`;
+    optionsDropdown.addEventListener("change", () => {
+        const selected = optionsDropdown.value;
+        const extra = foundProduct.options[selected] || 0;
+        const total = foundProduct.basePrice + extra;
+        priceElement.textContent = `Rs.${total.toLocaleString()}`;
     });
 
-    // Update specifications
+    // Specs
     const specsList = document.getElementById("product-specs");
     specsList.innerHTML = "";
     foundProduct.specs.forEach(spec => {
@@ -76,15 +82,13 @@ document.addEventListener("DOMContentLoaded", function () {
         specsList.appendChild(li);
     });
 
-    // Update breadcrumbs
+    // Breadcrumbs
     const categoryBreadcrumb = document.getElementById("breadcrumb-category");
     const productBreadcrumb = document.getElementById("breadcrumb-product");
 
-    if (category && categoryBreadcrumb) {
-        // Format category name
-        const formattedCategory = category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
-
-        categoryBreadcrumb.textContent = formattedCategory;
+    if (categoryBreadcrumb && category) {
+        const formatted = category.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+        categoryBreadcrumb.textContent = formatted;
         categoryBreadcrumb.href = `category.html?category=${category}`;
     }
 
