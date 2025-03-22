@@ -161,6 +161,14 @@ body {
     color: black;
 }
 
+.review-item {
+    margin-bottom: 15px;
+}
+
+.review-item p {
+    margin: 5px 0;
+}
+
 /* Learn More Link */
 #learn-more-link {
     display: inline-block;

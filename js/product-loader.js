@@ -23,6 +23,12 @@ async function loadProductDataFromXML() {
 
             const images = [...product.querySelectorAll("images > image")].map(img => img.textContent);
             const specs = [...product.querySelectorAll("specs > spec")].map(spec => spec.textContent);
+            const reviews = [...product.querySelectorAll("review")].map(r => ({
+                author: r.querySelector("author")?.textContent || "Anonymous",
+                rating: parseInt(r.querySelector("rating")?.textContent) || 0,
+                comment: r.querySelector("comment")?.textContent || ""
+            }));
+            
 
             const options = {};
             product.querySelectorAll("options > option").forEach(opt => {
@@ -31,7 +37,7 @@ async function loadProductDataFromXML() {
 
             productData[categoryName].push({
                 id, brand, title, basePrice, warranty, description, link,
-                images, specs, options, category: categoryName
+                images, specs, options, category: categoryName, reviews
             });
         });
     });

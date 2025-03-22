@@ -82,6 +82,25 @@ document.addEventListener("DOMContentLoaded", async function () {
         specsList.appendChild(li);
     });
 
+    const reviewsContainer = document.querySelector(".product-reviews .review");
+    reviewsContainer.innerHTML = ""; // Clear the "No reviews yet." text
+
+    if (foundProduct.reviews && foundProduct.reviews.length > 0) {
+        foundProduct.reviews.forEach(review => {
+            const reviewDiv = document.createElement("div");
+            reviewDiv.classList.add("review-item");
+            reviewDiv.innerHTML = `
+                <strong>${review.author}</strong> - ⭐ ${review.rating}/5
+                <p class="desc">${review.comment}</p>
+                <hr>
+            `;
+            reviewsContainer.appendChild(reviewDiv);
+        });
+    } else {
+        reviewsContainer.innerHTML = `<p class="desc">No reviews yet.</p>`;
+    }
+
+
     // Breadcrumbs
     const categoryBreadcrumb = document.getElementById("breadcrumb-category");
     const productBreadcrumb = document.getElementById("breadcrumb-product");

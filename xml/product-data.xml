@@ -30,6 +30,18 @@
                     <option name="64GB 2TB SSD">50000</option>
                 </options>
                 <link>https://www.asus.com/laptops/for-gaming/tuf-gaming/asus-tuf-gaming-f15-2023/techspec/</link>
+                <reviews>
+                    <review>
+                    <author>John Doe</author>
+                    <rating>5</rating>
+                    <comment>Amazing performance and build quality!</comment>
+                    </review>
+                    <review>
+                    <author>Jane Smith</author>
+                    <rating>4</rating>
+                    <comment>Runs all games smoothly, battery could be better.</comment>
+                    </review>
+                </reviews>
             </product>
 
         
@@ -90,6 +102,19 @@
                 <option name="i9 13980HX 32GB 2TB SSD">150000</option>
                 </options>
                 <link>https://rog.asus.com/us/laptops/rog-strix/rog-strix-g16-2023-series/</link>
+                <reviews>
+                    <review>
+                        <author>Michael Lee</author>
+                        <rating>5</rating>
+                        <comment>Blazing fast with stunning display. Perfect for creators!</comment>
+                    </review>
+                    <review>
+                        <author>Emily Carter</author>
+                        <rating>4</rating>
+                        <comment>Handles multitasking like a champ. Slightly heavy though.</comment>
+                    </review>
+                </reviews>
+
             </product>
 
             <product id="katana-15">
@@ -150,6 +175,19 @@
                 <option name="64GB Memory, RTX 5090 32GB">150000</option>
                 </options>
                 <link>https://rog.asus.com/laptops/rog-zephyrus/rog-zephyrus-g16-2025-gu605/</link>
+                <reviews>
+                    <review>
+                        <author>Daniel Kim</author>
+                        <rating>4</rating>
+                        <comment>Great value for the price. Fan can get loud at times.</comment>
+                    </review>
+                    <review>
+                        <author>Sophia Nguyen</author>
+                        <rating>5</rating>
+                        <comment>Superb battery life and compact design. Highly recommend!</comment>
+                    </review>
+                </reviews>
+
             </product>
 
             <product id="alienware-m16">
@@ -371,6 +409,29 @@
                     <option name="OC Edition">15000</option>
                 </options>
                 <link>https://www.asus.com/motherboards-components/graphics-cards/tuf-gaming/tuf-rtx4090-24g-gaming/</link>
+                <reviews>
+                    <review>
+                        <author>Andrew Scott</author>
+                        <rating>5</rating>
+                        <comment>Absolute powerhouse! Runs every AAA title at max settings in 4K. Cool and quiet even under load.</comment>
+                    </review>
+                    <review>
+                        <author>Sara Mitchell</author>
+                        <rating>4</rating>
+                        <comment>Top-tier performance with excellent thermal design. A bit bulky, so make sure your case can handle it.</comment>
+                    </review>
+                    <review>
+                        <author>Marcus Silva</author>
+                        <rating>5</rating>
+                        <comment>Blazing fast rendering times for 3D work and AI tasks. ASUS build quality never disappoints.</comment>
+                    </review>
+                    <review>
+                        <author>Jenna Moore</author>
+                        <rating>4</rating>
+                        <comment>Great card for future-proofing your rig. Pricey, but delivers insane performance across the board.</comment>
+                    </review>
+                </reviews>
+
             </product>
 
             <product id="pny-5090">
@@ -395,6 +456,14 @@
                     <option name="-No options-">0</option>
                 </options>
                 <link>https://www.pny.com/geforce-rtx-5090-models</link>
+                <reviews>
+                    <review>
+                        <author>Kevin Brooks</author>
+                        <rating>5</rating>
+                        <comment>Unbelievable performance! Maxes out every game at 4K with ray tracing on. Future-proof and worth every penny.</comment>
+                    </review>
+                </reviews>
+
             </product>
 
             <product id="msi-suprim-rtx4090">
@@ -482,6 +551,24 @@
                     <option name="-No options-">0</option>
                 </options>
                 <link>https://rog.asus.com/us/graphics-cards/graphics-cards/rog-strix/rog-strix-rtx4080s-o16g-gaming/</link>
+                <reviews>
+                    <review>
+                        <author>Samantha Lee</author>
+                        <rating>5</rating>
+                        <comment>Excellent thermal performance and ultra-smooth gameplay. The design is premium and the OC boost is impressive!</comment>
+                    </review>
+                    <review>
+                        <author>Jason Miller</author>
+                        <rating>4</rating>
+                        <comment>Runs everything I throw at it in 4K. Slightly overpriced, but performance and cooling are top-notch.</comment>
+                    </review>
+                    <review>
+                        <author>Natalie Chen</author>
+                        <rating>5</rating>
+                        <comment>Whisper quiet even under load and delivers insane frame rates. A dream card for serious gamers!</comment>
+                    </review>
+                </reviews>
+
             </product>
 
         </category>
@@ -580,6 +667,14 @@
                     <option name="-No options-">0</option>
                 </options>
                 <link>https://www.crucial.com/memory/ddr5/CP2K32G60C40U5W?_gl=1*2glgec*_up*MQ..*_ga*MzYwMzg0MTcyLjE3NDE5NDY2ODE.*_ga_6H4RYWV7QY*MTc0MTk0NjY4MS4xLjEuMTc0MTk0NzQwOC4wLjAuMTgwNjAxNDgzNw..</link>
+                <reviews>
+                    <review>
+                        <author>Leo Turner</author>
+                        <rating>5</rating>
+                        <comment>Excellent performance boost for gaming! Load times are faster and multitasking feels smoother than ever.</comment>
+                    </review>
+                </reviews>
+
             </product>
 
             <product id="adata-ddr5_ram">
@@ -628,6 +723,19 @@
                     <option name="4TB">27500</option>
                 </options>
                 <link>https://www.samsung.com/us/computing/memory-storage/portable-solid-state-drives/portable-ssd-t7-shield-usb-3-2-4tb-black-mu-pe4t0s-am/</link>
+                <reviews>
+                    <review>
+                        <author>Mark Evans</author>
+                        <rating>5</rating>
+                        <comment>Super fast transfer speeds and incredibly durable. Survived a drop during a hike without a scratch!</comment>
+                    </review>
+                    <review>
+                        <author>Ayesha Malik</author>
+                        <rating>4</rating>
+                        <comment>Compact, reliable, and secure. A bit pricey, but the rugged build is worth it for peace of mind.</comment>
+                    </review>
+                </reviews>
+
             </product>
 
         </category>
@@ -657,6 +765,19 @@
                 <option name="-No options-">0</option>
             </options>
             <link>https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9800x3d.html</link>
+            <reviews>
+                <review>
+                    <author>Linda Perez</author>
+                    <rating>5</rating>
+                    <comment>Outstanding performance for both gaming and productivity. The multitasking is seamless!</comment>
+                </review>
+                <review>
+                    <author>Tom Richardson</author>
+                    <rating>4</rating>
+                    <comment>Great value for the price. Handles demanding tasks well, but stock cooler could be better.</comment>
+                </review>
+            </reviews>
+
             </product>
 
             <product id="amd-ryzen9-9950x">
@@ -747,6 +868,24 @@
                 <option name="-No options-">0</option>
             </options>
             <link>https://www.intel.com/content/www/us/en/products/sku/241060/intel-core-ultra-9-processor-285k-36m-cache-up-to-5-70-ghz/specifications.html</link>
+            <reviews>
+                <review>
+                    <author>Alex Johnson</author>
+                    <rating>5</rating>
+                    <comment>The Intel Core Ultra 9 is an absolute beast! Handles video editing, gaming, and multitasking effortlessly.</comment>
+                </review>
+                <review>
+                    <author>Rachel Adams</author>
+                    <rating>4</rating>
+                    <comment>Super fast performance and efficient power usage. Does heat up under heavy load though.</comment>
+                </review>
+                <review>
+                    <author>Chris Walker</author>
+                    <rating>5</rating>
+                    <comment>This processor brings top notch power to the machine. Perfect for professionals and gamers alike.</comment>
+                </review>
+            </reviews>
+
             </product>
 
             <product id="amd-ryzen5-8500g">
@@ -929,6 +1068,19 @@
                     <option name="-No options-">0</option>
                 </options>
                 <link>https://www.logitechg.com/en-us/products/gaming-mice/pro-x-superlight-2-dex.910-007328.html</link>
+                <reviews>
+                    <review>
+                        <author>Ben Carter</author>
+                        <rating>5</rating>
+                        <comment>Excellent precision and battery life. Feels great in hand and works flawlessly for FPS games.</comment>
+                    </review>
+                    <review>
+                        <author>Lena Ortiz</author>
+                        <rating>2</rating>
+                        <comment>Connectivity issues from time to time and the side buttons feel a bit cheap. Expected better from Logitech.</comment>
+                    </review>
+                </reviews>
+
             </product>
 
             <product id="razer-hammerhead-pro">
@@ -1012,6 +1164,34 @@
                     <option name="-No options-">0</option>
                 </options>
                 <link>https://www.samsung.com/us/computing/monitors/gaming/34-odyssey-qd-oled-g8-ultra-wqhd-175hz-g-sync-compatible-curved-gaming-monitor-ls34dg856snxza/</link>
+                <reviews>
+                    <review>
+                        <author>Olivia Bennett</author>
+                        <rating>5</rating>
+                        <comment>The curved display is incredibly immersive! Colors pop and motion is buttery smooth at 175Hz.</comment>
+                    </review>
+                    <review>
+                        <author>Ryan Cooper</author>
+                        <rating>4</rating>
+                        <comment>Top-tier performance and build quality. Only downside is the stand takes up a lot of desk space.</comment>
+                    </review>
+                    <review>
+                        <author>Isabella Hayes</author>
+                        <rating>5</rating>
+                        <comment>Perfect for competitive gaming. Low input lag and stunning visuals make every session epic.</comment>
+                    </review>
+                    <review>
+                        <author>David Lin</author>
+                        <rating>4</rating>
+                        <comment>Fantastic monitor for gaming and content creation. Wish it had built-in speakers, though.</comment>
+                    </review>
+                    <review>
+                        <author>Maya Singh</author>
+                        <rating>5</rating>
+                        <comment>One of the best investments I’ve made for my setup. The ultra-wide view is a total game changer!</comment>
+                    </review>
+                </reviews>
+
             </product>
 
         </category>
