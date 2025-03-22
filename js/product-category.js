@@ -9,13 +9,6 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(() => {
             if (productData[category]) {
                 currentProducts = [...productData[category]];
-                //
-                console.log("Category param from URL:", category);
-                console.log("All loaded product data:", productData);
-                console.log("Product data for this category:", productData[category]);
-                console.log("Final product list to render:", currentProducts);
-
-
                 loadProducts(currentProducts);
             }
 
