@@ -1,63 +1,61 @@
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-// add to cart func
-function addToCart() {
+// addtocart func
+async function addToCart() {
     console.log("Attempting to add product to cart...");
 
     const urlParams = new URLSearchParams(window.location.search);
     const productId = urlParams.get("id");
+    const category = urlParams.get("category");
 
-    if (!productId) {
-        console.error("Product ID not found in URL!");
+    if (!productId || !category) {
+        console.error("Missing product ID or category in URL.");
         return;
     }
 
-    let foundProduct = null;
-    for (const category in products) {
-        foundProduct = products[category].find(product => product.id === productId);
-        if (foundProduct) break;
+    // xml load wait
+    await loadProductDataFromXML();
+
+    const productList = productData[category];
+    if (!productList) {
+        console.error("Category not found:", category);
+        return;
     }
 
+    const foundProduct = productList.find(product => product.id === productId);
     if (!foundProduct) {
-        console.error("Product data not found!");
+        console.error("Product not found in XML data.");
         return;
     }
 
-    console.log("Product found:", foundProduct.title);
-
-    //selected option
+    // selected choice
     const optionsDropdown = document.getElementById("product-options");
     const selectedOption = optionsDropdown ? optionsDropdown.value : null;
+    const optionPrice = selectedOption ? (foundProduct.options[selectedOption] || 0) : 0;
+    const finalPrice = foundProduct.basePrice + optionPrice;
 
-    // calculate price
-    let basePrice = foundProduct.basePrice;
-    let optionPrice = selectedOption ? (foundProduct.options[selectedOption] || 0) : 0;
-    let finalPrice = basePrice + optionPrice;
-
-    // Check if product with the same option already exists in cart
-    let existingItem = cart.find(item => item.id === productId && item.option === selectedOption);
-
+    // check if the product already exists in cart
+    const existingItem = cart.find(item => item.id === productId && item.option === selectedOption);
     if (existingItem) {
         existingItem.quantity += 1;
-        console.log("Increased quantity:", existingItem);
+        console.log("Quantity increased:", existingItem);
     } else {
         cart.push({
             id: productId,
             title: foundProduct.title,
-            image: foundProduct.images[0], 
+            image: foundProduct.images[0],
+            option: selectedOption,
             price: finalPrice,
-            option: selectedOption || "Default",
             quantity: 1
         });
-        console.log("Product added:", foundProduct.title);
+        console.log("Product added to cart.");
     }
 
     localStorage.setItem("cart", JSON.stringify(cart));
-
-    // user message
-    alert(`Added ${foundProduct.title} to the cart!`);
+    alert("Product added to cart!");
 }
+
 
 // cart.html functions
 function loadCart() {
