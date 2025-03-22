@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     });
 
     const reviewsContainer = document.querySelector(".product-reviews .review");
-    reviewsContainer.innerHTML = ""; // Clear the "No reviews yet." text
+    reviewsContainer.innerHTML = ""; 
 
     if (foundProduct.reviews && foundProduct.reviews.length > 0) {
         foundProduct.reviews.forEach(review => {
